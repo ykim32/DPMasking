@@ -1,0 +1,1479 @@
+Speaker,Utterance,Dialogue_Act,classID,Idx,tokenNum,labels,change_speaker,context
+b,yes,ackn,1,0,1,L1,1,@ yes
+b,do you want my phone number,reqDirect,32,1,6,L32,0,@ yes @ do you want my phone number
+a,that's fine,accept,0,2,2,L0,1,# do you want my phone number @ that's fine
+a,yes,direct,10,3,1,L10,0,@ that's fine @ yes
+b,it's well i've got telephone bill off you this morning and i've only just noticed there's a charge for um a double socket and a telephone i've actually paid for this off,inform,21,4,32,L21,1,# yes @ it's well i've got telephone bill off you this morning and i've only just noticed there's a charge for um a double socket and a telephone i've actually paid for this off
+a,yeah,backch,5,5,1,L5,1,# it's well i've got telephone bill off you this morning and i've only just noticed there's a charge for um a double socket and a telephone i've actually paid for this off @ yeah
+a,yeah,backch,5,6,1,L5,0,@ yeah @ yeah
+a,thank you,thank,37,7,2,L37,0,@ yeah @ thank you
+a,how can i help you,offer,27,8,5,L27,0,@ thank you @ how can i help you
+b,well,init,25,9,1,L25,1,# how can i help you @ well
+b,i've got telephone bill off you this morning,inform,21,10,8,L21,0,@ well @ i've got telephone bill off you this morning
+b,and i've only just noticed there's a charge for um a double socket and a telephone,inform,21,11,16,L21,0,@ i've got telephone bill off you this morning @ and i've only just noticed there's a charge for um a double socket and a telephone
+b,i've actually paid for this off my credit card,inform,21,12,9,L21,0,@ and i've only just noticed there's a charge for um a double socket and a telephone @ i've actually paid for this off my credit card
+b,it's a long story,inform,21,13,4,L21,0,@ i've actually paid for this off my credit card @ it's a long story
+b,i ordered i originally ordered the telephone and gave a credit card number,inform,21,14,13,L21,0,@ it's a long story @ i ordered i originally ordered the telephone and gave a credit card number
+b,and my card was declined,inform,21,15,5,L21,0,@ i ordered i originally ordered the telephone and gave a credit card number @ and my card was declined
+b,when i rang up um when i rang to find out why she said oh well your card's been declined,inform,21,16,20,L21,0,@ and my card was declined @ when i rang up um when i rang to find out why she said oh well your card's been declined
+b,i rang and she said oh gave us the wrong expiry date,inform,21,17,12,L21,0,@ when i rang up um when i rang to find out why she said oh well your card's been declined @ i rang and she said oh gave us the wrong expiry date
+b,so,init,25,18,1,L25,0,@ i rang and she said oh gave us the wrong expiry date @ so
+b,i ordered another,inform,21,19,3,L21,0,@ so @ i ordered another
+a,mm mm,backch,5,20,2,L5,1,# i ordered another @ mm mm
+a,so,init,25,21,1,L25,0,@ mm mm @ so
+a,they declined it for that mm,confirm,8,22,6,L8,0,@ so @ they declined it for that mm
+b,yes,ackn,1,23,1,L1,1,# they declined it for that mm @ yes
+b,they did,inform,21,24,2,L21,0,@ yes @ they did
+b,i was very annoyed,inform,21,25,4,L21,0,@ they did @ i was very annoyed
+b,brand new card,inform,21,26,3,L21,0,@ i was very annoyed @ brand new card
+b,i only had it a fortnight,inform,21,27,6,L21,0,@ brand new card @ i only had it a fortnight
+b,i was gonna tell them where to stick it but i thought anyone can make a mistake so it doesn't matter,expressOpinion,14,28,21,L14,0,@ i only had it a fortnight @ i was gonna tell them where to stick it but i thought anyone can make a mistake so it doesn't matter
+b,so,init,25,29,1,L25,0,@ i was gonna tell them where to stick it but i thought anyone can make a mistake so it doesn't matter @ so
+b,i rings up,inform,21,30,3,L21,0,@ so @ i rings up
+b,orders another phone,inform,21,31,3,L21,0,@ i rings up @ orders another phone
+b,paid for it with my credit card um,inform,21,32,8,L21,0,@ orders another phone @ paid for it with my credit card um
+b,got the phone and everything,inform,21,33,5,L21,0,@ paid for it with my credit card um @ got the phone and everything
+b,then i gets a letter off yourself saying please re-order your phone,inform,21,34,12,L21,0,@ got the phone and everything @ then i gets a letter off yourself saying please re-order your phone
+b,so,init,25,35,1,L25,0,@ then i gets a letter off yourself saying please re-order your phone @ so
+b,i rang up and i said,inform,21,36,6,L21,0,@ so @ i rang up and i said
+a,mm,backch,5,37,1,L5,1,# i rang up and i said @ mm
+a,i've got one,complete,7,38,3,L7,0,@ mm @ i've got one
+b,i've got one i said and actually the first order was cancelled,inform,21,39,12,L21,1,# i've got one @ i've got one i said and actually the first order was cancelled
+b,so,init,25,40,1,L25,0,@ i've got one i said and actually the first order was cancelled @ so
+b,she went through and i went can you make sure i'm not going to be charged for phones,inform,21,41,18,L21,0,@ so @ she went through and i went can you make sure i'm not going to be charged for phones
+b,she said yeah that's fine um,inform,21,42,6,L21,0,@ she went through and i went can you make sure i'm not going to be charged for phones @ she said yeah that's fine um
+b,got me second card it's paid for and everything on my credit card,inform,21,43,13,L21,0,@ she said yeah that's fine um @ got me second card it's paid for and everything on my credit card
+b,and now,refer,30,44,2,L30,0,@ got me second card it's paid for and everything on my credit card @ and now
+b,i've just got it deducted out me telephone bill the same phone,inform,21,45,12,L21,0,@ and now @ i've just got it deducted out me telephone bill the same phone
+a,oh right,ackn,1,46,2,L1,1,# i've just got it deducted out me telephone bill the same phone @ oh right
+a,just bear with me,hold,19,47,4,L19,0,@ oh right @ just bear with me
+a,right,init,25,48,1,L25,0,@ just bear with me @ right
+a,i've got your details in front of me,inform,21,49,8,L21,0,@ right @ i've got your details in front of me
+a,would you just confirm your full name address and post code,reqInfo,33,50,11,L33,0,@ i've got your details in front of me @ would you just confirm your full name address and post code
+b,hi,greet,18,51,1,L18,1,# would you just confirm your full name address and post code @ hi
+b,it's at in um i've just had exactly calls um to a female member of staff in the office and somebody seems to be heavy breathing now they're all in um within,identifySelf,20,52,32,L20,0,@ hi @ it's at in um i've just had exactly calls um to a female member of staff in the office and somebody seems to be heavy breathing now they're all in um within
+a,hello there,greet,18,53,2,L18,1,# it's at in um i've just had exactly calls um to a female member of staff in the office and somebody seems to be heavy breathing now they're all in um within @ hello there
+b,um i've just had exactly calls um to a female member of staff in the office,inform,21,54,16,L21,1,# hello there @ um i've just had exactly calls um to a female member of staff in the office
+b,and somebody seems to be heavy breathing,inform,21,55,7,L21,0,@ um i've just had exactly calls um to a female member of staff in the office @ and somebody seems to be heavy breathing
+b,now,init,25,56,1,L25,0,@ and somebody seems to be heavy breathing @ now
+b,but um when i've tried to do it's saying number withheld is there any way we can trace that caller right right yeah it it's the main number that comes in but,inform,21,57,32,L21,0,@ now @ but um when i've tried to do it's saying number withheld is there any way we can trace that caller right right yeah it it's the main number that comes in but
+b,it's saying number withheld,inform,21,58,4,L21,0,@ but um when i've tried to do it's saying number withheld is there any way we can trace that caller right right yeah it it's the main number that comes in but @ it's saying number withheld
+b,is there any way we can trace that caller,reqInfo,33,59,9,L33,0,@ it's saying number withheld @ is there any way we can trace that caller
+a,right,backch,5,60,1,L5,1,# is there any way we can trace that caller @ right
+a,oh dear,backch,5,61,2,L5,0,@ right @ oh dear
+a,right,backch,5,62,1,L5,0,@ oh dear @ right
+a,right,init,25,63,1,L25,0,@ right @ right
+a,we wouldn't be able to trace them now once once the call's been made,answ,2,64,14,L2,0,@ right @ we wouldn't be able to trace them now once once the call's been made
+a,we can't put trace it back to a withheld number,answElab,3,65,10,L3,0,@ we wouldn't be able to trace them now once once the call's been made @ we can't put trace it back to a withheld number
+b,right,ackn,1,66,1,L1,1,# we can't put trace it back to a withheld number @ right
+a,i mean if you know it were to persist,inform,21,67,9,L21,1,# right @ i mean if you know it were to persist
+a,we then could get our nuisance call bureau to put a trace on the line to see where it's coming from,inform,21,68,21,L21,0,@ i mean if you know it were to persist @ we then could get our nuisance call bureau to put a trace on the line to see where it's coming from
+a,it's to one is it,reqInfo,33,69,5,L33,0,@ we then could get our nuisance call bureau to put a trace on the line to see where it's coming from @ it's to one is it
+a,to the main number there or is it an extension,reqInfo,33,70,10,L33,0,@ it's to one is it @ to the main number there or is it an extension
+b,right,backch,5,71,1,L5,1,# to the main number there or is it an extension @ right
+b,yeah,answ,2,72,1,L2,0,@ right @ yeah
+b,it it's the main number that comes in,answElab,3,73,8,L3,0,@ yeah @ it it's the main number that comes in
+b,but uh the female officers they answer it first,answElab,3,74,9,L3,0,@ it it's the main number that comes in @ but uh the female officers they answer it first
+b,and then they'll divert it through to us,answElab,3,75,8,L3,0,@ but uh the female officers they answer it first @ and then they'll divert it through to us
+a,right,backch,5,76,1,L5,1,# and then they'll divert it through to us @ right
+a,yeah yeah,ackn,1,77,2,L1,0,@ right @ yeah yeah
+a,i understand,ackn,1,78,2,L1,0,@ yeah yeah @ i understand
+a,right,ackn,1,79,1,L1,0,@ i understand @ right
+a,is it's a business line i presume is it,reqInfo,33,80,9,L33,0,@ right @ is it's a business line i presume is it
+b,it is,answ,2,81,2,L2,1,# is it's a business line i presume is it @ it is
+b,yeah,answ,2,82,1,L2,0,@ it is @ yeah
+a,you can have a word with business on,suggest,36,83,8,L36,1,# yeah @ you can have a word with business on
+a,you know once the call's gone we can't sort of trace it,inform,21,84,12,L21,0,@ you can have a word with business on @ you know once the call's gone we can't sort of trace it
+a,but the nuisance call bureau might be able to help in that direction but if you speak to business on they'll be able to advise you more and then perhaps put you,expressPossibility,15,85,32,L15,0,@ you know once the call's gone we can't sort of trace it @ but the nuisance call bureau might be able to help in that direction but if you speak to business on they'll be able to advise you more and then perhaps put you
+a,but if you speak to business on they'll be able to advise you more and then perhaps put you through to nuisance calls alright thanks bye,suggest,36,86,26,L36,0,@ but the nuisance call bureau might be able to help in that direction but if you speak to business on they'll be able to advise you more and then perhaps put you @ but if you speak to business on they'll be able to advise you more and then perhaps put you through to nuisance calls alright thanks bye
+b,right,backch,5,87,1,L5,1,# but if you speak to business on they'll be able to advise you more and then perhaps put you through to nuisance calls alright thanks bye @ right
+b,yeah,ackn,1,88,1,L1,0,@ right @ yeah
+a,they'll be able to advise you more and then perhaps put you through to nuisance calls,inform,21,89,16,L21,1,# yeah @ they'll be able to advise you more and then perhaps put you through to nuisance calls
+b,okay then thanks very much thanks bye,ackn,1,90,7,L1,1,# they'll be able to advise you more and then perhaps put you through to nuisance calls @ okay then thanks very much thanks bye
+b,thanks very much,thank,37,91,3,L37,0,@ okay then thanks very much thanks bye @ thanks very much
+a,alright,ackn,1,92,1,L1,1,# thanks very much @ alright
+b,thanks,thank,37,93,1,L37,1,# alright @ thanks
+b,bye,bye,6,94,1,L6,0,@ thanks @ bye
+a,thanks,thank,37,95,1,L37,1,# bye @ thanks
+a,bye,bye,6,96,1,L6,0,@ thanks @ bye
+b,oh hi,greet,18,97,2,L18,1,# bye @ oh hi
+b,um i phoned up yesterday and asked for my phone to be disconnected,inform,21,98,13,L21,0,@ oh hi @ um i phoned up yesterday and asked for my phone to be disconnected
+b,is it too late to change my mind,reqInfo,33,99,8,L33,0,@ um i phoned up yesterday and asked for my phone to be disconnected @ is it too late to change my mind
+a,oh right,ackn,1,100,2,L1,1,# is it too late to change my mind @ oh right
+a,no,answ,2,101,1,L2,0,@ oh right @ no
+a,when were you when were you wanting disconnected,reqInfo,33,102,8,L33,0,@ no @ when were you when were you wanting disconnected
+b,um well,init,25,103,2,L25,1,# when were you when were you wanting disconnected @ um well
+b,they said it would be days from when i asked,inform,21,104,10,L21,0,@ um well @ they said it would be days from when i asked
+a,oh right,backch,5,105,2,L5,1,# they said it would be days from when i asked @ oh right
+a,okay,ackn,1,106,1,L1,0,@ oh right @ okay
+a,no,answ,2,107,1,L2,0,@ okay @ no
+a,that's fine,answElab,3,108,2,L3,0,@ no @ that's fine
+a,what's your telephone number please,reqInfo,33,109,5,L33,0,@ that's fine @ what's your telephone number please
+b,it's thank you thanks hello,answ,2,110,5,L2,1,# what's your telephone number please @ it's thank you thanks hello
+a,yeah,backch,5,111,1,L5,1,# it's thank you thanks hello @ yeah
+a,yeah,backch,5,112,1,L5,0,@ yeah @ yeah
+a,thank you,thank,37,113,2,L37,0,@ yeah @ thank you
+a,can you confirm your name and address for me please,reqInfo,33,114,10,L33,0,@ thank you @ can you confirm your name and address for me please
+a,right,ackn,1,115,1,L1,0,@ can you confirm your name and address for me please @ right
+a,if you just bear with me,hold,19,116,6,L19,0,@ right @ if you just bear with me
+a,i'll go through to that department and get them to check it,informIntent,24,117,12,L24,0,@ if you just bear with me @ i'll go through to that department and get them to check it
+a,won't keep you a minute,hold,19,118,5,L19,0,@ i'll go through to that department and get them to check it @ won't keep you a minute
+b,thank you,backch,5,119,2,L5,1,# won't keep you a minute @ thank you
+b,thanks hello,thank,37,120,2,L37,0,@ thank you @ thanks hello
+a,miss,greet,18,121,1,L18,1,# thanks hello @ miss
+a,passing you through to my colleague now,informIntent,24,122,7,L24,0,@ miss @ passing you through to my colleague now
+a,he'll help you,inform,21,123,3,L21,0,@ passing you through to my colleague now @ he'll help you
+b,hello,backch,5,124,1,L5,1,# he'll help you @ hello
+b,hello,greet,18,125,1,L18,0,@ hello @ hello
+b,could uh you send a duplicate of my uh of the phone bill please,direct,10,126,14,L10,0,@ hello @ could uh you send a duplicate of my uh of the phone bill please
+b,because what's happened i've lost part of it,inform,21,127,8,L21,0,@ could uh you send a duplicate of my uh of the phone bill please @ because what's happened i've lost part of it
+b,and i can't pay uh the rest in the post office,inform,21,128,11,L21,0,@ because what's happened i've lost part of it @ and i can't pay uh the rest in the post office
+b,they say they can't take that part of it,inform,21,129,9,L21,0,@ and i can't pay uh the rest in the post office @ they say they can't take that part of it
+a,right,ackn,1,130,1,L1,1,# they say they can't take that part of it @ right
+a,no problem,accept,0,131,2,L0,0,@ right @ no problem
+a,yeah,ackn,1,132,1,L1,0,@ no problem @ yeah
+a,that's fine,accept,0,133,2,L0,0,@ yeah @ that's fine
+a,uh huh,backch,5,134,2,L5,0,@ that's fine @ uh huh
+a,lovely,appreciate,4,135,1,L4,0,@ uh huh @ lovely
+a,thank you,thank,37,136,2,L37,0,@ lovely @ thank you
+a,can you confirm your name and the address on the bill for me please,reqInfo,33,137,14,L33,0,@ thank you @ can you confirm your name and the address on the bill for me please
+b,uh it's a mister uh sorry yeah that's right yes oh right cheers,answ,2,138,13,L2,1,# can you confirm your name and the address on the bill for me please @ uh it's a mister uh sorry yeah that's right yes oh right cheers
+a,lovely,appreciate,4,139,1,L4,1,# uh it's a mister uh sorry yeah that's right yes oh right cheers @ lovely
+a,thank you and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with,thank,37,140,32,L37,0,@ lovely @ thank you and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with
+a,and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within,reqInfo,33,141,32,L33,0,@ thank you and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with @ and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within
+b,yeah,answ,2,142,1,L2,1,# and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within @ yeah
+b,that's right,answElab,3,143,2,L3,0,@ yeah @ that's right
+a,and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within the next two or,confirm,8,144,32,L8,1,# that's right @ and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within the next two or
+b,yes,ackn,1,145,1,L1,1,# and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within the next two or @ yes
+a,yeah,ackn,1,146,1,L1,1,# yes @ yeah
+a,that's no problem at all,accept,0,147,5,L0,0,@ yeah @ that's no problem at all
+a,i have that requested today,informIntent,24,148,5,L24,0,@ that's no problem at all @ i have that requested today
+a,so,init,25,149,1,L25,0,@ i have that requested today @ so
+a,it should be with you within the next two or days,inform,21,150,11,L21,0,@ so @ it should be with you within the next two or days
+b,oh right,ackn,1,151,2,L1,1,# it should be with you within the next two or days @ oh right
+b,cheers,thank,37,152,1,L37,0,@ oh right @ cheers
+b,hi,greet,18,153,1,L18,0,@ cheers @ hi
+b,um i'd like to report a fault um on a phone line,inform,21,154,12,L21,0,@ hi @ um i'd like to report a fault um on a phone line
+a,oh right,ackn,1,155,2,L1,1,# um i'd like to report a fault um on a phone line @ oh right
+a,you need to dial for that,inform,21,156,6,L21,0,@ oh right @ you need to dial for that
+a,that's the fault department,inform,21,157,4,L21,0,@ you need to dial for that @ that's the fault department
+b,okay,ackn,1,158,1,L1,1,# that's the fault department @ okay
+b,thanks a lot,thank,37,159,3,L37,0,@ okay @ thanks a lot
+b,bye,bye,6,160,1,L6,0,@ thanks a lot @ bye
+a,alright,init,25,161,1,L25,1,# bye @ alright
+a,byebye,bye,6,162,1,L6,0,@ alright @ byebye
+b,uh hello,greet,18,163,2,L18,1,# byebye @ uh hello
+b,it's i've got the phone in last Wednesday and,inform,21,164,9,L21,0,@ uh hello @ it's i've got the phone in last Wednesday and
+a,sorry,pardon,28,165,1,L28,1,# it's i've got the phone in last Wednesday and @ sorry
+a,you've got the what,reqInfo,33,166,4,L33,0,@ sorry @ you've got the what
+b,i got the phone put on last Wednesday,answ,2,167,8,L2,1,# you've got the what @ i got the phone put on last Wednesday
+a,yeah aha,ackn,1,168,2,L1,1,# i got the phone put on last Wednesday @ yeah aha
+b,and i would like to get a bar code cause i've got a year old daughter in the house,direct,10,169,19,L10,1,# yeah aha @ and i would like to get a bar code cause i've got a year old daughter in the house
+b,cause i've got a year old daughter in the house,inform,21,170,10,L21,0,@ and i would like to get a bar code cause i've got a year old daughter in the house @ cause i've got a year old daughter in the house
+b,uh you caught me off guard there,inform,21,171,7,L21,0,@ cause i've got a year old daughter in the house @ uh you caught me off guard there
+b,i was expecting to get through on the normal procedure uh huh why don't we do that anymore oh right thank god cos i hated that other service right could you tell,inform,21,172,32,L21,0,@ uh you caught me off guard there @ i was expecting to get through on the normal procedure uh huh why don't we do that anymore oh right thank god cos i hated that other service right could you tell
+a,what,reqInfo,33,173,1,L33,1,# i was expecting to get through on the normal procedure uh huh why don't we do that anymore oh right thank god cos i hated that other service right could you tell @ what
+a,press press and all that,reqInfo,33,174,5,L33,0,@ what @ press press and all that
+b,uh huh,answ,2,175,2,L2,1,# press press and all that @ uh huh
+b,why don't we do that anymore,reqInfo,33,176,6,L33,0,@ uh huh @ why don't we do that anymore
+a,well,init,25,177,1,L25,1,# why don't we do that anymore @ well
+a,this is just a trial to see how the customer reacts to coming straight through to mm,answ,2,178,17,L2,0,@ well @ this is just a trial to see how the customer reacts to coming straight through to mm
+b,oh right,ackn,1,179,2,L1,1,# this is just a trial to see how the customer reacts to coming straight through to mm @ oh right
+b,thank god,exclaim,13,180,2,L13,0,@ oh right @ thank god
+b,cos i hated that other service,inform,21,181,6,L21,0,@ thank god @ cos i hated that other service
+a,mm,ackn,1,182,1,L1,1,# cos i hated that other service @ mm
+b,right could you tell me what select services i'm supposed to have please,init,25,183,13,L25,1,# mm @ right could you tell me what select services i'm supposed to have please
+b,could you tell me what select services i'm supposed to have please,reqInfo,33,184,12,L33,0,@ right could you tell me what select services i'm supposed to have please @ could you tell me what select services i'm supposed to have please
+b,good morning,greet,18,185,2,L18,0,@ could you tell me what select services i'm supposed to have please @ good morning
+a,morning sir,greet,18,186,2,L18,1,# good morning @ morning sir
+b,i don't know whether you're the department i want,reqInfo,33,187,9,L33,1,# morning sir @ i don't know whether you're the department i want
+b,but i tried or different departments yesterday and couldn't get no answer,inform,21,188,12,L21,0,@ i don't know whether you're the department i want @ but i tried or different departments yesterday and couldn't get no answer
+a,right,ackn,1,189,1,L1,1,# but i tried or different departments yesterday and couldn't get no answer @ right
+a,so,init,25,190,1,L25,0,@ right @ so
+b,we want we want a telephone disconnected,direct,10,191,7,L10,1,# so @ we want we want a telephone disconnected
+b,oh hello i got this letter through about B T Planet Talk B T Planet Talk it's about long distance call cheaper rates well i've rang the number it says on here,greet,18,192,32,L18,0,@ we want we want a telephone disconnected @ oh hello i got this letter through about B T Planet Talk B T Planet Talk it's about long distance call cheaper rates well i've rang the number it says on here
+b,i got this letter through about B T Planet Talk,inform,21,193,10,L21,0,@ oh hello i got this letter through about B T Planet Talk B T Planet Talk it's about long distance call cheaper rates well i've rang the number it says on here @ i got this letter through about B T Planet Talk
+a,about what,reqInfo,33,194,2,L33,1,# i got this letter through about B T Planet Talk @ about what
+a,sorry,pardon,28,195,1,L28,0,@ about what @ sorry
+b,B T Planet Talk,answ,2,196,4,L2,1,# sorry @ B T Planet Talk
+b,it's about long distance call cheaper rates,inform,21,197,7,L21,0,@ B T Planet Talk @ it's about long distance call cheaper rates
+a,yeah,backch,5,198,1,L5,1,# it's about long distance call cheaper rates @ yeah
+a,right,ackn,1,199,1,L1,0,@ yeah @ right
+b,well,init,25,200,1,L25,1,# right @ well
+b,i've rang the number it says on here,inform,21,201,8,L21,0,@ well @ i've rang the number it says on here
+b,and it says press for sales and for something else,inform,21,202,10,L21,0,@ i've rang the number it says on here @ and it says press for sales and for something else
+b,well,init,25,203,1,L25,0,@ and it says press for sales and for something else @ well
+b,i pressed for sales,inform,21,204,4,L21,0,@ well @ i pressed for sales
+b,and then it just goes dead,inform,21,205,6,L21,0,@ i pressed for sales @ and then it just goes dead
+b,um is that oh that's unusual good morning this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh,reqInfo,33,206,32,L33,0,@ and then it just goes dead @ um is that oh that's unusual good morning this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh
+a,it is,answ,2,207,2,L2,1,# um is that oh that's unusual good morning this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh @ it is
+a,yeah,answElab,3,208,1,L3,0,@ it is @ yeah
+b,oh that's unusual,expressOpinion,14,209,3,L14,1,# yeah @ oh that's unusual
+b,good morning,greet,18,210,2,L18,0,@ oh that's unusual @ good morning
+b,this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh please,identifySelf,20,211,25,L20,0,@ good morning @ this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh please
+a,hello,backch,5,212,1,L5,1,# this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh please @ hello
+a,hi there,greet,18,213,2,L18,0,@ hello @ hi there
+a,we're doing a trial into the um call steering,inform,21,214,9,L21,0,@ hi there @ we're doing a trial into the um call steering
+b,oh right,backch,5,215,2,L5,1,# we're doing a trial into the um call steering @ oh right
+b,right okay,ackn,1,216,2,L1,0,@ oh right @ right okay
+b,i um have um a gentleman here who would like to get connected to uh please,direct,10,217,16,L10,0,@ right okay @ i um have um a gentleman here who would like to get connected to uh please
+b,oh yes,ackn,1,218,2,L1,0,@ i um have um a gentleman here who would like to get connected to uh please @ oh yes
+b,good day,greet,18,219,2,L18,0,@ oh yes @ good day
+b,um can i give you the telephone number,reqModal,34,220,8,L34,0,@ good day @ um can i give you the telephone number
+a,yes please,accept,0,221,2,L0,1,# um can i give you the telephone number @ yes please
+b,i'm querying uh it's yes it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still,inform,21,222,32,L21,1,# yes please @ i'm querying uh it's yes it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still
+a,yes yeah,backch,5,223,2,L5,1,# i'm querying uh it's yes it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still @ yes yeah
+a,thank you,thank,37,224,2,L37,0,@ yes yeah @ thank you
+a,can i confirm the name address and post code there please as well,reqInfo,33,225,13,L33,0,@ thank you @ can i confirm the name address and post code there please as well
+b,yes,answ,2,226,1,L2,1,# can i confirm the name address and post code there please as well @ yes
+b,it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done,answElab,3,227,31,L3,0,@ yes @ it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done
+a,okay,ackn,1,228,1,L1,1,# it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done @ okay
+a,uh missus how can i help you,reqInfo,33,229,7,L33,0,@ okay @ uh missus how can i help you
+b,okay,ackn,1,230,1,L1,1,# uh missus how can i help you @ okay
+b,i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done,inform,21,231,25,L21,0,@ okay @ i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done
+b,and it still has not been done,inform,21,232,7,L21,0,@ i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done @ and it still has not been done
+b,hello there,greet,18,233,2,L18,0,@ and it still has not been done @ hello there
+b,i wonder if you could help me,direct,10,234,7,L10,0,@ hello there @ i wonder if you could help me
+b,um i've actually received a letter from about my dum my arrears on the my um account,inform,21,235,17,L21,0,@ i wonder if you could help me @ um i've actually received a letter from about my dum my arrears on the my um account
+a,right,ackn,1,236,1,L1,1,# um i've actually received a letter from about my dum my arrears on the my um account @ right
+b,it is,answ,2,237,2,L2,1,# right @ it is
+b,yes,answElab,3,238,1,L3,0,@ it is @ yes
+a,okay,ackn,1,239,1,L1,1,# yes @ okay
+a,just bear with me,hold,19,240,4,L19,0,@ okay @ just bear with me
+a,and i'll put you through to the accounts department,informIntent,24,241,9,L24,0,@ just bear with me @ and i'll put you through to the accounts department
+b,okay lovely,appreciate,4,242,2,L4,1,# and i'll put you through to the accounts department @ okay lovely
+b,thank you,thank,37,243,2,L37,0,@ okay lovely @ thank you
+a,thank you,thank,37,244,2,L37,1,# thank you @ thank you
+a,just bear with me ringing for you now,hold,19,245,8,L19,0,@ thank you @ just bear with me ringing for you now
+b,ah wonder if you can,direct,10,246,5,L10,1,# just bear with me ringing for you now @ ah wonder if you can
+b,my name's mister i've just moved into in um i've got a the phone there um but i want it disconnected for a little okay um ah yeah this is the old,identifySelf,20,247,32,L20,0,@ ah wonder if you can @ my name's mister i've just moved into in um i've got a the phone there um but i want it disconnected for a little okay um ah yeah this is the old
+b,i've just moved into in,inform,21,248,5,L21,0,@ my name's mister i've just moved into in um i've got a the phone there um but i want it disconnected for a little okay um ah yeah this is the old @ i've just moved into in
+b,um i've got a the phone there um,inform,21,249,8,L21,0,@ i've just moved into in @ um i've got a the phone there um
+b,but i want it disconnected for a little,direct,10,250,8,L10,0,@ um i've got a the phone there um @ but i want it disconnected for a little
+a,right,backch,5,251,1,L5,1,# but i want it disconnected for a little @ right
+a,yeah,backch,5,252,1,L5,0,@ right @ yeah
+a,right okay,accept,0,253,2,L0,0,@ yeah @ right okay
+a,just bear with me,hold,19,254,4,L19,0,@ right okay @ just bear with me
+b,okay,ackn,1,255,1,L1,1,# just bear with me @ okay
+a,can i take your customer number,reqInfo,33,256,6,L33,1,# okay @ can i take your customer number
+a,from the top right hand side of your bill,reqInfo,33,257,9,L33,0,@ can i take your customer number @ from the top right hand side of your bill
+b,ah yeah this is the old bill actually it's in a mister uh mister um let's help you out then treble that what you need i'm i'm mister,ackn,1,258,28,L1,1,# from the top right hand side of your bill @ ah yeah this is the old bill actually it's in a mister uh mister um let's help you out then treble that what you need i'm i'm mister
+b,this is the old bill actually,inform,21,259,6,L21,0,@ ah yeah this is the old bill actually it's in a mister uh mister um let's help you out then treble that what you need i'm i'm mister @ this is the old bill actually
+b,it's in a mister uh mister um,inform,21,260,7,L21,0,@ this is the old bill actually @ it's in a mister uh mister um
+b,let's help you out then,informIntent,24,261,5,L24,0,@ it's in a mister uh mister um @ let's help you out then
+a,yeah,ackn,1,262,1,L1,1,# let's help you out then @ yeah
+a,right,ackn,1,263,1,L1,0,@ yeah @ right
+a,let's have a look at that for you and,informIntent,24,264,9,L24,0,@ right @ let's have a look at that for you and
+b,that what you need,reqInfo,33,265,4,L33,1,# let's have a look at that for you and @ that what you need
+a,what was your initial mister,reqInfo,33,266,5,L33,1,# that what you need @ what was your initial mister
+b,i'm i'm mister,answ,2,267,3,L2,1,# what was your initial mister @ i'm i'm mister
+b,yes,ackn,1,268,1,L1,0,@ i'm i'm mister @ yes
+b,hello,greet,18,269,1,L18,0,@ yes @ hello
+b,um i'm moving address um and want to arrange from for a line to be installed in my new address,inform,21,270,20,L21,0,@ hello @ um i'm moving address um and want to arrange from for a line to be installed in my new address
+b,but was wondering if i could take my old number with me,reqModal,34,271,12,L34,0,@ um i'm moving address um and want to arrange from for a line to be installed in my new address @ but was wondering if i could take my old number with me
+a,yeah,accept,0,272,1,L0,1,# but was wondering if i could take my old number with me @ yeah
+a,there is a charge of for that,inform,21,273,7,L21,0,@ yeah @ there is a charge of for that
+a,there is a charge of pounds for taking your number,inform,21,274,10,L21,0,@ there is a charge of for that @ there is a charge of pounds for taking your number
+b,is there,reqInfo,33,275,2,L33,1,# there is a charge of pounds for taking your number @ is there
+a,yes,answ,2,276,1,L2,1,# is there @ yes
+b,right,ackn,1,277,1,L1,1,# yes @ right
+a,um and that's if it can be done,inform,21,278,8,L21,1,# right @ um and that's if it can be done
+a,it has to be in within the same exchange area,inform,21,279,10,L21,0,@ um and that's if it can be done @ it has to be in within the same exchange area
+b,right,ackn,1,280,1,L1,1,# it has to be in within the same exchange area @ right
+b,and if i if i just used another number,inform,21,281,9,L21,0,@ right @ and if i if i just used another number
+b,would that be free of charge,reqInfo,33,282,6,L33,0,@ and if i if i just used another number @ would that be free of charge
+a,yeah,answ,2,283,1,L2,1,# would that be free of charge @ yeah
+a,there's no charge if you wanna take over the number that's already there,answElab,3,284,13,L3,0,@ yeah @ there's no charge if you wanna take over the number that's already there
+a,or they could give you another number um,expressPossibility,15,285,8,L15,0,@ there's no charge if you wanna take over the number that's already there @ or they could give you another number um
+a,it's just that if you want to retain your number,inform,21,286,10,L21,0,@ or they could give you another number um @ it's just that if you want to retain your number
+a,it's pounds yeah certainly you're welcome byebye,inform,21,287,7,L21,0,@ it's just that if you want to retain your number @ it's pounds yeah certainly you're welcome byebye
+b,right,ackn,1,288,1,L1,1,# it's pounds yeah certainly you're welcome byebye @ right
+b,um i think i might um,expressOpinion,14,289,6,L14,0,@ right @ um i think i might um
+b,i'll hold on with that and try cable and see if they'll do it with no charge,informIntent,24,290,17,L24,0,@ um i think i might um @ i'll hold on with that and try cable and see if they'll do it with no charge
+b,okay then,ackn,1,291,2,L1,0,@ i'll hold on with that and try cable and see if they'll do it with no charge @ okay then
+b,thanks very much,thank,37,292,3,L37,0,@ okay then @ thanks very much
+b,bye,bye,6,293,1,L6,0,@ thanks very much @ bye
+a,yeah certainly,accept,0,294,2,L0,1,# bye @ yeah certainly
+a,you're welcome,ackn,1,295,2,L1,0,@ yeah certainly @ you're welcome
+a,byebye,bye,6,296,1,L6,0,@ you're welcome @ byebye
+b,uh your phone's awfully quiet,expressOpinion,14,297,5,L14,1,# byebye @ uh your phone's awfully quiet
+a,my phone,confirm,8,298,2,L8,1,# uh your phone's awfully quiet @ my phone
+b,your phone,inform,21,299,2,L21,1,# my phone @ your phone
+b,yeah,accept,0,300,1,L0,0,@ your phone @ yeah
+a,oh,exclaim,13,301,1,L13,1,# yeah @ oh
+b,might be mine,expressOpinion,14,302,3,L14,1,# oh @ might be mine
+b,but i don't think i've got volume control uh i'm phoning up to get uh the phone put in to my name my big brother phoned yesterday and took it off his,expressOpinion,14,303,32,L14,0,@ might be mine @ but i don't think i've got volume control uh i'm phoning up to get uh the phone put in to my name my big brother phoned yesterday and took it off his
+b,uh i'm phoning up to get uh the phone put in to my name,direct,10,304,14,L10,0,@ but i don't think i've got volume control uh i'm phoning up to get uh the phone put in to my name my big brother phoned yesterday and took it off his @ uh i'm phoning up to get uh the phone put in to my name
+b,my big brother phoned yesterday and took it off his name,inform,21,305,11,L21,0,@ uh i'm phoning up to get uh the phone put in to my name @ my big brother phoned yesterday and took it off his name
+b,yes,ackn,1,306,1,L1,0,@ my big brother phoned yesterday and took it off his name @ yes
+b,um i'm moving out from my flat,inform,21,307,7,L21,0,@ yes @ um i'm moving out from my flat
+b,and i'd like to uh cancel my line,direct,10,308,8,L10,0,@ um i'm moving out from my flat @ and i'd like to uh cancel my line
+a,oh right,accept,0,309,2,L0,1,# and i'd like to uh cancel my line @ oh right
+a,do you have your account number there please,reqInfo,33,310,8,L33,0,@ oh right @ do you have your account number there please
+b,uh the customer number,reqInfo,33,311,4,L33,1,# do you have your account number there please @ uh the customer number
+a,yeah please,answ,2,312,2,L2,1,# uh the customer number @ yeah please
+a,yeah,ackn,1,313,1,L1,0,@ yeah please @ yeah
+a,yes,ackn,1,314,1,L1,0,@ yeah @ yes
+b,yes,ackn,1,315,1,L1,1,# yes @ yes
+a,lovely,appreciate,4,316,1,L4,1,# yes @ lovely
+a,thank you,thank,37,317,2,L37,0,@ lovely @ thank you
+a,yes,ackn,1,318,1,L1,0,@ thank you @ yes
+b,hello,greet,18,319,1,L18,1,# yes @ hello
+b,i'm interested in getting an additional line run to my property,inform,21,320,11,L21,0,@ hello @ i'm interested in getting an additional line run to my property
+a,right okay,ackn,1,321,2,L1,1,# i'm interested in getting an additional line run to my property @ right okay
+a,what would that be for,reqInfo,33,322,5,L33,0,@ right okay @ what would that be for
+b,well,init,25,323,1,L25,1,# what would that be for @ well
+b,it's just mainly for my husband to use,answ,2,324,8,L2,0,@ well @ it's just mainly for my husband to use
+a,was it gonna for a an actual telephone or P C fax,reqInfo,33,325,12,L33,1,# it's just mainly for my husband to use @ was it gonna for a an actual telephone or P C fax
+b,oh no,answ,2,326,2,L2,1,# was it gonna for a an actual telephone or P C fax @ oh no
+b,just an actual telephone line,answElab,3,327,5,L3,0,@ oh no @ just an actual telephone line
+a,right,ackn,1,328,1,L1,1,# just an actual telephone line @ right
+a,um would it be actually under his name then or,reqInfo,33,329,10,L33,0,@ right @ um would it be actually under his name then or
+b,uh a just as a oh well,init,25,330,7,L25,1,# um would it be actually under his name then or @ uh a just as a oh well
+b,yes,answ,2,331,1,L2,0,@ uh a just as a oh well @ yes
+b,actually it probably it will be best to put it under his name,expressOpinion,14,332,13,L14,0,@ yes @ actually it probably it will be best to put it under his name
+a,right do you actually have a line under your name at the same address do you so you're looking for an extra line for your husband okay um right right what's your,ackn,1,333,32,L1,1,# actually it probably it will be best to put it under his name @ right do you actually have a line under your name at the same address do you so you're looking for an extra line for your husband okay um right right what's your
+a,do you actually have a line under your name at the same address do you,reqInfo,33,334,15,L33,0,@ right do you actually have a line under your name at the same address do you so you're looking for an extra line for your husband okay um right right what's your @ do you actually have a line under your name at the same address do you
+b,yes,answ,2,335,1,L2,1,# do you actually have a line under your name at the same address do you @ yes
+b,we do,answElab,3,336,2,L3,0,@ yes @ we do
+a,so,init,25,337,1,L25,1,# we do @ so
+a,you're looking for an extra line for your husband,confirm,8,338,9,L8,0,@ so @ you're looking for an extra line for your husband
+b,yes,ackn,1,339,1,L1,1,# you're looking for an extra line for your husband @ yes
+a,okay um right right what's your address and i'll have a look,ackn,1,340,12,L1,1,# yes @ okay um right right what's your address and i'll have a look
+b,i do actually have i i know the previous owner of this house did actually work from home,inform,21,341,18,L21,1,# okay um right right what's your address and i'll have a look @ i do actually have i i know the previous owner of this house did actually work from home
+b,so,init,25,342,1,L25,0,@ i do actually have i i know the previous owner of this house did actually work from home @ so
+b,in one of the rooms,refer,30,343,5,L30,0,@ so @ in one of the rooms
+b,we do have two other phone points it appears,inform,21,344,9,L21,0,@ in one of the rooms @ we do have two other phone points it appears
+a,right,backch,5,345,1,L5,1,# we do have two other phone points it appears @ right
+a,right,ackn,1,346,1,L1,0,@ right @ right
+a,what's your address,reqInfo,33,347,3,L33,0,@ right @ what's your address
+a,and i'll have a look,informIntent,24,348,5,L24,0,@ what's your address @ and i'll have a look
+b,this is uh mister i appear to have mislaid my last uh um bill,identifySelf,20,349,14,L20,1,# and i'll have a look @ this is uh mister i appear to have mislaid my last uh um bill
+a,yes mister how can i help yes what's,ackn,1,350,8,L1,1,# this is uh mister i appear to have mislaid my last uh um bill @ yes mister how can i help yes what's
+a,how can i help,offer,27,351,4,L27,0,@ yes mister how can i help yes what's @ how can i help
+a,yes,ackn,1,352,1,L1,0,@ how can i help @ yes
+b,i appear to have mislaid my last uh um bill,inform,21,353,10,L21,1,# yes @ i appear to have mislaid my last uh um bill
+b,hello hello hello hello hello,greet,18,354,5,L18,0,@ i appear to have mislaid my last uh um bill @ hello hello hello hello hello
+b,can you hear me,reqInfo,33,355,4,L33,0,@ hello hello hello hello hello @ can you hear me
+a,hello,backch,5,356,1,L5,1,# can you hear me @ hello
+a,yeah,answ,2,357,1,L2,0,@ hello @ yeah
+a,i can hear you sir,answElab,3,358,5,L3,0,@ yeah @ i can hear you sir
+b,uh loud and clear,confirm,8,359,4,L8,1,# i can hear you sir @ uh loud and clear
+a,only well not not very loud but,inform,21,360,7,L21,1,# uh loud and clear @ only well not not very loud but
+b,oh uh,exclaim,13,361,2,L13,1,# only well not not very loud but @ oh uh
+b,i haven't gotta shout dead loud have i,reqInfo,33,362,8,L33,0,@ oh uh @ i haven't gotta shout dead loud have i
+a,no,answ,2,363,1,L2,1,# i haven't gotta shout dead loud have i @ no
+a,i can hear you sir,answElab,3,364,5,L3,0,@ no @ i can hear you sir
+a,what's what's how can i help you,reqDirect,32,365,7,L32,0,@ i can hear you sir @ what's what's how can i help you
+b,i'd like to get a phone line on mate,direct,10,366,9,L10,1,# what's what's how can i help you @ i'd like to get a phone line on mate
+b,hello,greet,18,367,1,L18,0,@ i'd like to get a phone line on mate @ hello
+b,who am i speaking to,reqInfo,33,368,5,L33,0,@ hello @ who am i speaking to
+a,hello,answ,2,369,1,L2,1,# who am i speaking to @ hello
+b,is that okay this is mister double,reqInfo,33,370,7,L33,1,# hello @ is that okay this is mister double
+a,yes,answ,2,371,1,L2,1,# is that okay this is mister double @ yes
+a,it is,answElab,3,372,2,L3,0,@ yes @ it is
+b,okay,ackn,1,373,1,L1,1,# it is @ okay
+b,this is mister double,inform,21,374,4,L21,0,@ okay @ this is mister double
+b,hi,greet,18,375,1,L18,0,@ this is mister double @ hi
+b,yes,ackn,1,376,1,L1,0,@ hi @ yes
+b,my name's um it's a it's a long story i was due to move into a council house uh the nineteenth of last month and the council pulled out on us at,identifySelf,20,377,32,L20,0,@ yes @ my name's um it's a it's a long story i was due to move into a council house uh the nineteenth of last month and the council pulled out on us at
+b,um it's a it's a long story,inform,21,378,7,L21,0,@ my name's um it's a it's a long story i was due to move into a council house uh the nineteenth of last month and the council pulled out on us at @ um it's a it's a long story
+b,i was due to move into a council house uh the nineteenth of last month,inform,21,379,15,L21,0,@ um it's a it's a long story @ i was due to move into a council house uh the nineteenth of last month
+b,and the council pulled out on us at the last moment,inform,21,380,11,L21,0,@ i was due to move into a council house uh the nineteenth of last month @ and the council pulled out on us at the last moment
+b,now,init,25,381,1,L25,0,@ and the council pulled out on us at the last moment @ now
+b,i'd already set a telephone line up for the house on the nineteenth,inform,21,382,13,L21,0,@ now @ i'd already set a telephone line up for the house on the nineteenth
+a,yeah,backch,5,383,1,L5,1,# i'd already set a telephone line up for the house on the nineteenth @ yeah
+a,i see,ackn,1,384,2,L1,0,@ yeah @ i see
+b,so,init,25,385,1,L25,1,# i see @ so
+b,i had to cancel out cancel it,inform,21,386,7,L21,0,@ so @ i had to cancel out cancel it
+b,and i was told it would be thirteen pound for that,inform,21,387,11,L21,0,@ i had to cancel out cancel it @ and i was told it would be thirteen pound for that
+a,yeah,ackn,1,388,1,L1,1,# and i was told it would be thirteen pound for that @ yeah
+b,now,init,25,389,1,L25,1,# yeah @ now
+b,i've also been given another property uh which i'm trying to set up a line,inform,21,390,15,L21,0,@ now @ i've also been given another property uh which i'm trying to set up a line
+b,but uh so far i've heard nothing from you to have the line installed or set up,inform,21,391,17,L21,0,@ i've also been given another property uh which i'm trying to set up a line @ but uh so far i've heard nothing from you to have the line installed or set up
+a,so,init,25,392,1,L25,1,# but uh so far i've heard nothing from you to have the line installed or set up @ so
+a,we sorted out the the address where you didn't actually require the line,confirm,8,393,13,L8,0,@ so @ we sorted out the the address where you didn't actually require the line
+a,we've done that,reqInfo,33,394,3,L33,0,@ we sorted out the the address where you didn't actually require the line @ we've done that
+b,yeah,answ,2,395,1,L2,1,# we've done that @ yeah
+b,you've sorted that out,answElab,3,396,4,L3,0,@ yeah @ you've sorted that out
+b,and you've sent me a bill out which should have been thirteen pound but is actually forty eight ninety one,inform,21,397,20,L21,0,@ you've sorted that out @ and you've sent me a bill out which should have been thirteen pound but is actually forty eight ninety one
+a,yeah,backch,5,398,1,L5,1,# and you've sent me a bill out which should have been thirteen pound but is actually forty eight ninety one @ yeah
+a,what was the reference number on that,reqInfo,33,399,7,L33,0,@ yeah @ what was the reference number on that
+a,and i'll just have a look at that one first,informIntent,24,400,10,L24,0,@ what was the reference number on that @ and i'll just have a look at that one first
+b,uh the customer number is there okay,answ,2,401,7,L2,1,# and i'll just have a look at that one first @ uh the customer number is there okay
+a,yeah,ackn,1,402,1,L1,1,# uh the customer number is there okay @ yeah
+a,yeah,ackn,1,403,1,L1,0,@ yeah @ yeah
+a,thank you sir,thank,37,404,3,L37,0,@ yeah @ thank you sir
+a,i'll just get the details done,informIntent,24,405,6,L24,0,@ thank you sir @ i'll just get the details done
+b,okay,ackn,1,406,1,L1,1,# i'll just get the details done @ okay
+b,listen,init,25,407,1,L25,0,@ okay @ listen
+b,i was just speaking to somebody um a minute ago,inform,21,408,10,L21,0,@ listen @ i was just speaking to somebody um a minute ago
+b,and i got cut off um,inform,21,409,6,L21,0,@ i was just speaking to somebody um a minute ago @ and i got cut off um
+b,dunno quite what happened there um it's regarding um i'm closing down the line for this house at the moment cause i'm moving tomorrow yes okay it's yeah yes it's mister that's,expressOpinion,14,410,32,L14,0,@ and i got cut off um @ dunno quite what happened there um it's regarding um i'm closing down the line for this house at the moment cause i'm moving tomorrow yes okay it's yeah yes it's mister that's
+b,cause i'm moving tomorrow,inform,21,411,4,L21,0,@ dunno quite what happened there um it's regarding um i'm closing down the line for this house at the moment cause i'm moving tomorrow yes okay it's yeah yes it's mister that's @ cause i'm moving tomorrow
+a,okay,ackn,1,412,1,L1,1,# cause i'm moving tomorrow @ okay
+a,do you want to give me the phone number there first,reqInfo,33,413,11,L33,0,@ okay @ do you want to give me the phone number there first
+a,sorry to interrupt you there,expressRegret,16,414,5,L16,0,@ do you want to give me the phone number there first @ sorry to interrupt you there
+a,i'll just get the details up yeah,informIntent,24,415,7,L24,0,@ sorry to interrupt you there @ i'll just get the details up yeah
+b,yes,backch,5,416,1,L5,1,# i'll just get the details up yeah @ yes
+b,okay,backch,5,417,1,L5,0,@ yes @ okay
+b,it's yeah yes it's mister that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving,answ,2,418,32,L2,0,@ okay @ it's yeah yes it's mister that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving
+a,yep,backch,5,419,1,L5,1,# it's yeah yes it's mister that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving @ yep
+a,yep,backch,5,420,1,L5,0,@ yep @ yep
+a,thank you,thank,37,421,2,L37,0,@ yep @ thank you
+a,just quickly confirm the name and address there for me,reqInfo,33,422,10,L33,0,@ thank you @ just quickly confirm the name and address there for me
+b,yeah,backch,5,423,1,L5,1,# just quickly confirm the name and address there for me @ yeah
+b,yes,ackn,1,424,1,L1,0,@ yeah @ yes
+b,it's mister,answ,2,425,2,L2,0,@ yes @ it's mister
+b,that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving tomorrow and um and he,answElab,3,426,32,L3,0,@ it's mister @ that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving tomorrow and um and he
+a,yes,backch,5,427,1,L5,1,# that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving tomorrow and um and he @ yes
+a,okay,ackn,1,428,1,L1,0,@ yes @ okay
+a,so,init,25,429,1,L25,0,@ okay @ so
+a,just to get the line stopped for whenever or what,reqInfo,33,430,10,L33,0,@ so @ just to get the line stopped for whenever or what
+b,yes,answ,2,431,1,L2,1,# just to get the line stopped for whenever or what @ yes
+b,it was um the thing was,refer,30,432,6,L30,0,@ yes @ it was um the thing was
+b,cause he was gonna put an urgent request to get it stopped within seven days,inform,21,433,15,L21,0,@ it was um the thing was @ cause he was gonna put an urgent request to get it stopped within seven days
+b,cause i'm actually moving tomorrow,inform,21,434,5,L21,0,@ cause he was gonna put an urgent request to get it stopped within seven days @ cause i'm actually moving tomorrow
+b,and um and he was just in the process of doing that,inform,21,435,12,L21,0,@ cause i'm actually moving tomorrow @ and um and he was just in the process of doing that
+b,and he says to me he's just arranged it to be um closed down within the seven days,inform,21,436,18,L21,0,@ and um and he was just in the process of doing that @ and he says to me he's just arranged it to be um closed down within the seven days
+b,and then the line went dead,inform,21,437,6,L21,0,@ and he says to me he's just arranged it to be um closed down within the seven days @ and then the line went dead
+b,and i was gonna tell him that um on the twenty seventh i'm moving into uh my new permanent property,informIntent,24,438,20,L24,0,@ and then the line went dead @ and i was gonna tell him that um on the twenty seventh i'm moving into uh my new permanent property
+b,and i wanted to um take up a line there too,informIntent,24,439,11,L24,0,@ and i was gonna tell him that um on the twenty seventh i'm moving into uh my new permanent property @ and i wanted to um take up a line there too
+a,right,backch,5,440,1,L5,1,# and i wanted to um take up a line there too @ right
+a,mm,backch,5,441,1,L5,0,@ right @ mm
+a,okay,ackn,1,442,1,L1,0,@ mm @ okay
+a,so,init,25,443,1,L25,0,@ okay @ so
+a,when do you want to get this one stopped first of all,reqDirect,32,444,12,L32,0,@ so @ when do you want to get this one stopped first of all
+b,it's tomorrow,direct,10,445,2,L10,1,# when do you want to get this one stopped first of all @ it's tomorrow
+a,so,init,25,446,1,L25,1,# it's tomorrow @ so
+a,have you actually got the account number with you,reqInfo,33,447,9,L33,0,@ so @ have you actually got the account number with you
+b,yes,answ,2,448,1,L2,1,# have you actually got the account number with you @ yes
+b,i do,answElab,3,449,2,L3,0,@ yes @ i do
+a,yeah,ackn,1,450,1,L1,1,# i do @ yeah
+a,can i just take that yeah,reqInfo,33,451,6,L33,0,@ yeah @ can i just take that yeah
+b,yeah,answ,2,452,1,L2,1,# can i just take that yeah @ yeah
+b,it's right,answElab,3,453,2,L3,0,@ yeah @ it's right
+a,yes,backch,5,454,1,L5,1,# it's right @ yes
+a,mm,backch,5,455,1,L5,0,@ yes @ mm
+a,that's fine,appreciate,4,456,2,L4,0,@ mm @ that's fine
+a,that's all i need there,inform,21,457,5,L21,0,@ that's fine @ that's all i need there
+a,so,init,25,458,1,L25,0,@ that's all i need there @ so
+a,if i stop that tomorrow say midday,suggest,36,459,7,L36,0,@ so @ if i stop that tomorrow say midday
+a,is that alright do you think,reqInfo,33,460,6,L33,0,@ if i stop that tomorrow say midday @ is that alright do you think
+b,right,backch,5,461,1,L5,1,# is that alright do you think @ right
+b,hi,greet,18,462,1,L18,0,@ right @ hi
+b,um i'm just ringing to check uh whether i've paid my bill or not,reqInfo,33,463,14,L33,0,@ hi @ um i'm just ringing to check uh whether i've paid my bill or not
+b,i it it was so long ago i can't remember,inform,21,464,10,L21,0,@ um i'm just ringing to check uh whether i've paid my bill or not @ i it it was so long ago i can't remember
+b,and i'm not sure whether i've had any reminders or anything,inform,21,465,11,L21,0,@ i it it was so long ago i can't remember @ and i'm not sure whether i've had any reminders or anything
+a,have you got the account number for that please,reqInfo,33,466,9,L33,1,# and i'm not sure whether i've had any reminders or anything @ have you got the account number for that please
+b,oh i haven't,answ,2,467,3,L2,1,# have you got the account number for that please @ oh i haven't
+b,no,answElab,3,468,1,L3,0,@ oh i haven't @ no
+b,that's the thing,inform,21,469,3,L21,0,@ no @ that's the thing
+b,i've lost the bill,inform,21,470,4,L21,0,@ that's the thing @ i've lost the bill
+b,that's why i'm not too sure if i've paid it or not,inform,21,471,12,L21,0,@ i've lost the bill @ that's why i'm not too sure if i've paid it or not
+a,um what was the telephone number then please,reqInfo,33,472,8,L33,1,# that's why i'm not too sure if i've paid it or not @ um what was the telephone number then please
+b,it's it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye,answ,2,473,21,L2,1,# um what was the telephone number then please @ it's it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye
+a,mm hmm,backch,5,474,2,L5,1,# it's it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye @ mm hmm
+a,mm hmm,backch,5,475,2,L5,0,@ mm hmm @ mm hmm
+b,it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye,answ,2,476,20,L2,1,# mm hmm @ it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye
+a,mm,backch,5,477,1,L5,1,# it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye @ mm
+a,mm,backch,5,478,1,L5,0,@ mm @ mm
+a,right,ackn,1,479,1,L1,0,@ mm @ right
+a,thank you your last bill was in May and that has been paid so we yeah there's no outstanding balance at the moment yeah we received that alright then okay then thanks,thank,37,480,32,L37,0,@ right @ thank you your last bill was in May and that has been paid so we yeah there's no outstanding balance at the moment yeah we received that alright then okay then thanks
+a,your last bill was in May,inform,21,481,6,L21,0,@ thank you your last bill was in May and that has been paid so we yeah there's no outstanding balance at the moment yeah we received that alright then okay then thanks @ your last bill was in May
+a,and that has been paid,inform,21,482,5,L21,0,@ your last bill was in May @ and that has been paid
+a,so,init,25,483,1,L25,0,@ and that has been paid @ so
+b,it has been paid,confirm,8,484,4,L8,1,# so @ it has been paid
+a,yeah,ackn,1,485,1,L1,1,# it has been paid @ yeah
+a,there's no outstanding balance at the moment,inform,21,486,7,L21,0,@ yeah @ there's no outstanding balance at the moment
+b,excellent,ackn,1,487,1,L1,1,# there's no outstanding balance at the moment @ excellent
+a,yeah,ackn,1,488,1,L1,1,# excellent @ yeah
+a,we received that,inform,21,489,3,L21,0,@ yeah @ we received that
+b,okay,ackn,1,490,1,L1,1,# we received that @ okay
+b,that's that's all i wanted to know,inform,21,491,7,L21,0,@ okay @ that's that's all i wanted to know
+b,thanks very much,thank,37,492,3,L37,0,@ that's that's all i wanted to know @ thanks very much
+a,alright then,backch,5,493,2,L5,1,# thanks very much @ alright then
+a,okay then,init,25,494,2,L25,0,@ alright then @ okay then
+b,cheers,thank,37,495,1,L37,1,# okay then @ cheers
+b,bye,bye,6,496,1,L6,0,@ cheers @ bye
+a,thanks,thank,37,497,1,L37,1,# bye @ thanks
+a,bye bye,bye,6,498,2,L6,0,@ thanks @ bye bye
+b,oh right,ackn,1,499,2,L1,1,# bye bye @ oh right
+b,i've got a bit of a problem,inform,21,500,7,L21,0,@ oh right @ i've got a bit of a problem
+b,actually i think you've switched me off,expressOpinion,14,501,7,L14,0,@ i've got a bit of a problem @ actually i think you've switched me off
+b,and i'm a bit annoyed,inform,21,502,5,L21,0,@ actually i think you've switched me off @ and i'm a bit annoyed
+b,because i phoned you a couple of months ago and said i had problems paying,inform,21,503,15,L21,0,@ and i'm a bit annoyed @ because i phoned you a couple of months ago and said i had problems paying
+b,and you sent me a payment plan card,inform,21,504,8,L21,0,@ because i phoned you a couple of months ago and said i had problems paying @ and you sent me a payment plan card
+b,now,init,25,505,1,L25,0,@ and you sent me a payment plan card @ now
+b,the bill i've got,refer,30,506,4,L30,0,@ now @ the bill i've got
+b,i've paid half off it and the line's absolutely dead,inform,21,507,10,L21,0,@ the bill i've got @ i've paid half off it and the line's absolutely dead
+a,right okay,ackn,1,508,2,L1,1,# i've paid half off it and the line's absolutely dead @ right okay
+b,yeah,answ,2,509,1,L2,1,# right okay @ yeah
+b,i'm on a friends number at the moment,inform,21,510,8,L21,0,@ yeah @ i'm on a friends number at the moment
+b,but do you want my home number,reqDirect,32,511,7,L32,0,@ i'm on a friends number at the moment @ but do you want my home number
+a,yes please,direct,10,512,2,L10,1,# but do you want my home number @ yes please
+a,your home number,directElab,11,513,3,L11,0,@ yes please @ your home number
+b,it's double yes it's missus,inform,21,514,5,L21,1,# your home number @ it's double yes it's missus
+a,and uh can i confirm your name address and post code for me please,reqInfo,33,515,14,L33,1,# it's double yes it's missus @ and uh can i confirm your name address and post code for me please
+b,yes,answ,2,516,1,L2,1,# and uh can i confirm your name address and post code for me please @ yes
+b,it's missus,inform,21,517,2,L21,0,@ yes @ it's missus
+a,okay,ackn,1,518,1,L1,1,# it's missus @ okay
+a,missus uh how can i,reqDirect,32,519,5,L32,0,@ okay @ missus uh how can i
+a,right so,init,25,520,2,L25,0,@ missus uh how can i @ right so
+a,can you not make outcoming calls,reqInfo,33,521,6,L33,0,@ right so @ can you not make outcoming calls
+b,i was supposed to have a a me line put on,inform,21,522,11,L21,1,# can you not make outcoming calls @ i was supposed to have a a me line put on
+b,i was told it would be on by lunch time,inform,21,523,10,L21,0,@ i was supposed to have a a me line put on @ i was told it would be on by lunch time
+b,and it's still not done,inform,21,524,5,L21,0,@ i was told it would be on by lunch time @ and it's still not done
+a,right,ackn,1,525,1,L1,1,# and it's still not done @ right
+a,can i take your have you got a order number or a telephone number,reqInfo,33,526,14,L33,0,@ right @ can i take your have you got a order number or a telephone number
+b,it's it's missus for apple okay i cannot believe this because i mean i desperately need that put on today so where would the fault be,answ,2,527,26,L2,1,# can i take your have you got a order number or a telephone number @ it's it's missus for apple okay i cannot believe this because i mean i desperately need that put on today so where would the fault be
+a,let's have a look okay i've got some details in front of me can you confirm your full name and address including postcode please right let's have a look see if there's,informIntent,24,528,32,L24,1,# it's it's missus for apple okay i cannot believe this because i mean i desperately need that put on today so where would the fault be @ let's have a look okay i've got some details in front of me can you confirm your full name and address including postcode please right let's have a look see if there's
+a,okay,init,25,529,1,L25,0,@ let's have a look okay i've got some details in front of me can you confirm your full name and address including postcode please right let's have a look see if there's @ okay
+a,i've got some details in front of me,inform,21,530,8,L21,0,@ okay @ i've got some details in front of me
+a,can you confirm your full name and address including postcode please,reqInfo,33,531,11,L33,0,@ i've got some details in front of me @ can you confirm your full name and address including postcode please
+b,it's missus for apple,answ,2,532,4,L2,1,# can you confirm your full name and address including postcode please @ it's missus for apple
+a,right,ackn,1,533,1,L1,1,# it's missus for apple @ right
+a,let's have a look see if there's a start order on this account right okay let's come out of this account right there's a provisional order it still hasn't gone on let's,informIntent,24,534,32,L24,0,@ right @ let's have a look see if there's a start order on this account right okay let's come out of this account right there's a provisional order it still hasn't gone on let's
+a,right okay let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's,init,25,535,32,L25,0,@ let's have a look see if there's a start order on this account right okay let's come out of this account right there's a provisional order it still hasn't gone on let's @ right okay let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's
+a,let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's caused the,informIntent,24,536,32,L24,0,@ right okay let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's @ let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's caused the
+a,right,init,25,537,1,L25,0,@ let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's caused the @ right
+a,there's a provisional order,inform,21,538,4,L21,0,@ right @ there's a provisional order
+a,it still hasn't gone on,inform,21,539,5,L21,0,@ there's a provisional order @ it still hasn't gone on
+a,let's have a look why,informIntent,24,540,5,L24,0,@ it still hasn't gone on @ let's have a look why
+a,there might be some sort of engineering delay that's caused the problem,expressPossibility,15,541,12,L15,0,@ let's have a look why @ there might be some sort of engineering delay that's caused the problem
+a,er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's,informIntent,24,542,32,L24,0,@ there might be some sort of engineering delay that's caused the problem @ er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's
+a,sorry about the delay,expressRegret,16,543,4,L16,0,@ er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's @ sorry about the delay
+a,they're on closure,inform,21,544,3,L21,0,@ sorry about the delay @ they're on closure
+a,yeah,init,25,545,1,L25,0,@ they're on closure @ yeah
+a,that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but,expressOpinion,14,546,32,L14,0,@ yeah @ that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but
+a,yeah,init,25,547,1,L25,0,@ that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but @ yeah
+a,they've come up with a line fault when they tried to reconnect it i'm afraid,inform,21,548,15,L21,0,@ yeah @ they've come up with a line fault when they tried to reconnect it i'm afraid
+a,um let's have a look,informIntent,24,549,5,L24,0,@ they've come up with a line fault when they tried to reconnect it i'm afraid @ um let's have a look
+b,okay,backch,5,550,1,L5,1,# um let's have a look @ okay
+b,i cannot believe this,exclaim,13,551,4,L13,0,@ okay @ i cannot believe this
+b,because i mean i desperately need that put on today,inform,21,552,10,L21,0,@ i cannot believe this @ because i mean i desperately need that put on today
+a,i know,ackn,1,553,2,L1,1,# because i mean i desperately need that put on today @ i know
+a,but i mean we are trying,inform,21,554,6,L21,0,@ i know @ but i mean we are trying
+a,but obviously if there is a fault,inform,21,555,7,L21,0,@ but i mean we are trying @ but obviously if there is a fault
+a,we can't get the line on,inform,21,556,6,L21,0,@ but obviously if there is a fault @ we can't get the line on
+b,so,init,25,557,1,L25,1,# we can't get the line on @ so
+b,where would the fault be,reqInfo,33,558,5,L33,0,@ so @ where would the fault be
+a,uh it appears to be at the exchange not at your house or anything like that,answ,2,559,16,L2,1,# where would the fault be @ uh it appears to be at the exchange not at your house or anything like that
+a,they're just basically the which is the computer that switches on the line can't switch it,inform,21,560,16,L21,0,@ uh it appears to be at the exchange not at your house or anything like that @ they're just basically the which is the computer that switches on the line can't switch it
+a,so,init,25,561,1,L25,0,@ they're just basically the which is the computer that switches on the line can't switch it @ so
+a,it basically they're just waiting for manual intervention um,inform,21,562,9,L21,0,@ so @ it basically they're just waiting for manual intervention um
+a,if you like i if you wouldn't mind waiting on the line for me,hold,19,563,14,L19,0,@ it basically they're just waiting for manual intervention um @ if you like i if you wouldn't mind waiting on the line for me
+a,i'll just ring through,offer,27,564,4,L27,0,@ if you like i if you wouldn't mind waiting on the line for me @ i'll just ring through
+b,yeah,ackn,1,565,1,L1,1,# i'll just ring through @ yeah
+b,i enquired this morning about my phone was coming today,inform,21,566,10,L21,0,@ yeah @ i enquired this morning about my phone was coming today
+b,it has come,inform,21,567,3,L21,0,@ i enquired this morning about my phone was coming today @ it has come
+a,yeah,ackn,1,568,1,L1,1,# it has come @ yeah
+a,that's how it does,inform,21,569,4,L21,0,@ yeah @ that's how it does
+a,yeah,ackn,1,570,1,L1,0,@ that's how it does @ yeah
+b,yeah,ackn,1,571,1,L1,1,# yeah @ yeah
+b,well,init,25,572,1,L25,0,@ yeah @ well
+b,i put it on the wall and that,inform,21,573,8,L21,0,@ well @ i put it on the wall and that
+b,but i ain't got no phone number for meself,inform,21,574,9,L21,0,@ i put it on the wall and that @ but i ain't got no phone number for meself
+a,mm,backch,5,575,1,L5,1,# but i ain't got no phone number for meself @ mm
+b,pardon,pardon,28,576,1,L28,1,# mm @ pardon
+a,nobody gave you the number when you placed your order to connect the line,reqInfo,33,577,14,L33,1,# pardon @ nobody gave you the number when you placed your order to connect the line
+b,no,answ,2,578,1,L2,1,# nobody gave you the number when you placed your order to connect the line @ no
+a,right,ackn,1,579,1,L1,1,# no @ right
+a,i will not be able to give you the number over the phone i'm afraid um but there will be ways and means of how you can get it first of all,inform,21,580,32,L21,0,@ right @ i will not be able to give you the number over the phone i'm afraid um but there will be ways and means of how you can get it first of all
+a,um but there will be ways and means of how you can get it,inform,21,581,14,L21,0,@ i will not be able to give you the number over the phone i'm afraid um but there will be ways and means of how you can get it first of all @ um but there will be ways and means of how you can get it
+a,first of all what is your address,reqInfo,33,582,7,L33,0,@ um but there will be ways and means of how you can get it @ first of all what is your address
+a,mm,backch,5,583,1,L5,0,@ first of all what is your address @ mm
+a,yeah,backch,5,584,1,L5,0,@ mm @ yeah
+a,and the postcode,reqInfo,33,585,3,L33,0,@ yeah @ and the postcode
+b,oh i ain't got,inform,21,586,4,L21,1,# and the postcode @ oh i ain't got
+b,hang on hello it's my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the,hold,19,587,32,L19,0,@ oh i ain't got @ hang on hello it's my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the
+a,hello yeah mm hmm thank you right thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you,greet,18,588,32,L18,1,# hang on hello it's my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the @ hello yeah mm hmm thank you right thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you
+b,hello,greet,18,589,1,L18,1,# hello yeah mm hmm thank you right thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you @ hello
+a,yeah,ackn,1,590,1,L1,1,# hello @ yeah
+b,it's,answ,2,591,1,L2,1,# yeah @ it's
+b,my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the engineer was coming to,inform,21,592,32,L21,0,@ it's @ my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the engineer was coming to
+a,mm hmm,backch,5,593,2,L5,1,# my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the engineer was coming to @ mm hmm
+a,thank you,backch,5,594,2,L5,0,@ mm hmm @ thank you
+a,right,ackn,1,595,1,L1,0,@ thank you @ right
+a,thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you haven't received a contract no right okay,thank,37,596,32,L37,0,@ right @ thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you haven't received a contract no right okay
+a,yeah,init,25,597,1,L25,0,@ thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you haven't received a contract no right okay @ yeah
+a,the line's actually up and running now,inform,21,598,7,L21,0,@ yeah @ the line's actually up and running now
+a,it's working,inform,21,599,2,L21,0,@ the line's actually up and running now @ it's working
+a,one way of how you can find the number out is um,inform,21,600,12,L21,0,@ it's working @ one way of how you can find the number out is um
+b,yeah,backch,5,601,1,L5,1,# one way of how you can find the number out is um @ yeah
+b,yeah,backch,5,602,1,L5,0,@ yeah @ yeah
+b,i've got on the top of this page uh customer services and also,inform,21,603,13,L21,0,@ yeah @ i've got on the top of this page uh customer services and also
+b,oh it's a fax number,inform,21,604,5,L21,0,@ i've got on the top of this page uh customer services and also @ oh it's a fax number
+a,mm,ackn,1,605,1,L1,1,# oh it's a fax number @ mm
+b,no,answ,2,606,1,L2,1,# mm @ no
+b,the uh i thought the engineer was coming to put it in i put it on,expressOpinion,14,607,16,L14,0,@ no @ the uh i thought the engineer was coming to put it in i put it on
+a,right okay,backch,5,608,2,L5,1,# the uh i thought the engineer was coming to put it in i put it on @ right okay
+a,oh no,negate,26,609,2,L26,0,@ right okay @ oh no
+a,the line was disconnected at the exchange,inform,21,610,7,L21,0,@ oh no @ the line was disconnected at the exchange
+b,yes,ackn,1,611,1,L1,1,# the line was disconnected at the exchange @ yes
+b,wonder if you can,direct,10,612,4,L10,0,@ yes @ wonder if you can
+b,i just um checking my bank account on the internet,inform,21,613,10,L21,0,@ wonder if you can @ i just um checking my bank account on the internet
+b,and i've just noticed um i don't know my i'm not phoning from home so i don't know my um account number,inform,21,614,22,L21,0,@ i just um checking my bank account on the internet @ and i've just noticed um i don't know my i'm not phoning from home so i don't know my um account number
+b,just looking on here,inform,21,615,4,L21,0,@ and i've just noticed um i don't know my i'm not phoning from home so i don't know my um account number @ just looking on here
+b,it's got direct debit for a hundred and twenty five pounds,inform,21,616,11,L21,0,@ just looking on here @ it's got direct debit for a hundred and twenty five pounds
+b,i just wondered if you could check it out,direct,10,617,9,L10,0,@ it's got direct debit for a hundred and twenty five pounds @ i just wondered if you could check it out
+b,it shouldn't be that much,inform,21,618,5,L21,0,@ i just wondered if you could check it out @ it shouldn't be that much
+a,have you got your account number on you,reqInfo,33,619,8,L33,1,# it shouldn't be that much @ have you got your account number on you
+b,i haven't,answ,2,620,2,L2,1,# have you got your account number on you @ i haven't
+b,sorry,expressRegret,16,621,1,L16,0,@ i haven't @ sorry
+b,i've my,inform,21,622,2,L21,0,@ sorry @ i've my
+a,without that i can't um i can't discuss that side of your um account is,inform,21,623,15,L21,1,# i've my @ without that i can't um i can't discuss that side of your um account is
+b,is is this number that's on the um is this my account number that or is that just a direct debit number that they've take they use to take out treble treble,reqInfo,33,624,32,L33,1,# without that i can't um i can't discuss that side of your um account is @ is is this number that's on the um is this my account number that or is that just a direct debit number that they've take they use to take out treble treble
+b,is this my account number that or is that just a direct debit number that they've take they use to take out treble treble what what do you yes it's missus telephone,reqInfo,33,625,32,L33,0,@ is is this number that's on the um is this my account number that or is that just a direct debit number that they've take they use to take out treble treble @ is this my account number that or is that just a direct debit number that they've take they use to take out treble treble what what do you yes it's missus telephone
+a,what was that number again,reqInfo,33,626,5,L33,1,# is this my account number that or is that just a direct debit number that they've take they use to take out treble treble what what do you yes it's missus telephone @ what was that number again
+a,sorry,pardon,28,627,1,L28,0,@ what was that number again @ sorry
+a,let's have a look and uh have you got your details there please sorry your name and address yeah ok missus the and the first eight digits that number you quoted me,informIntent,24,628,32,L24,0,@ sorry @ let's have a look and uh have you got your details there please sorry your name and address yeah ok missus the and the first eight digits that number you quoted me
+a,and uh have you got your details there please,reqInfo,33,629,9,L33,0,@ let's have a look and uh have you got your details there please sorry your name and address yeah ok missus the and the first eight digits that number you quoted me @ and uh have you got your details there please
+b,what what do you,reqInfo,33,630,4,L33,1,# and uh have you got your details there please @ what what do you
+a,sorry,expressRegret,16,631,1,L16,1,# what what do you @ sorry
+a,your name and address,correct,9,632,4,L9,0,@ sorry @ your name and address
+b,yes,answ,2,633,1,L2,1,# your name and address @ yes
+b,it's missus telephone number yes oh right is it right,answElab,3,634,10,L3,0,@ yes @ it's missus telephone number yes oh right is it right
+a,yeah,backch,5,635,1,L5,1,# it's missus telephone number yes oh right is it right @ yeah
+a,the and the first eight digits,refer,30,636,6,L30,0,@ yeah @ the and the first eight digits
+a,that number you quoted me,refer,30,637,5,L30,0,@ the and the first eight digits @ that number you quoted me
+a,that's your customer account number,inform,21,638,5,L21,0,@ that number you quoted me @ that's your customer account number
+b,yes,backch,5,639,1,L5,1,# that's your customer account number @ yes
+b,oh right,ackn,1,640,2,L1,0,@ yes @ oh right
+b,is it,ackn,1,641,2,L1,0,@ oh right @ is it
+b,right,ackn,1,642,1,L1,0,@ is it @ right
+b,yes please,ackn,1,643,2,L1,0,@ right @ yes please
+b,um i um need to make an appointment,inform,21,644,8,L21,0,@ yes please @ um i um need to make an appointment
+b,i i need to have a a new phone,inform,21,645,9,L21,0,@ um i um need to make an appointment @ i i need to have a a new phone
+b,i'm not sure whether i need to have my main phone box moved or an additional socket put it um,expressOpinion,14,646,20,L14,0,@ i i need to have a a new phone @ i'm not sure whether i need to have my main phone box moved or an additional socket put it um
+a,right,ackn,1,647,1,L1,1,# i'm not sure whether i need to have my main phone box moved or an additional socket put it um @ right
+a,what is it exactly that you want us to do,reqDirect,32,648,10,L32,0,@ right @ what is it exactly that you want us to do
+b,basically what i uh what i do is,inform,21,649,8,L21,1,# what is it exactly that you want us to do @ basically what i uh what i do is
+b,at the moment the house i moved into um,refer,30,650,9,L30,0,@ basically what i uh what i do is @ at the moment the house i moved into um
+b,the two two phone points that there are are down stairs on the ground floor,inform,21,651,15,L21,0,@ at the moment the house i moved into um @ the two two phone points that there are are down stairs on the ground floor
+b,um and i have a room up on the third floor which i want to make into my study and i want to put my p c into,inform,21,652,28,L21,0,@ the two two phone points that there are are down stairs on the ground floor @ um and i have a room up on the third floor which i want to make into my study and i want to put my p c into
+b,um and i need to get the line moved,direct,10,653,9,L10,0,@ um and i have a room up on the third floor which i want to make into my study and i want to put my p c into @ um and i need to get the line moved
+b,and i'm not sure for that if i need to get the main box line moved up there or just an extension will do,expressOpinion,14,654,24,L14,0,@ um and i need to get the line moved @ and i'm not sure for that if i need to get the main box line moved up there or just an extension will do
+b,i don't honestly know what i need,expressOpinion,14,655,7,L14,0,@ and i'm not sure for that if i need to get the main box line moved up there or just an extension will do @ i don't honestly know what i need
+a,mm,backch,5,656,1,L5,1,# i don't honestly know what i need @ mm
+a,mm,backch,5,657,1,L5,0,@ mm @ mm
+a,right okay,accept,0,658,2,L0,0,@ mm @ right okay
+a,extension is going to be slightly cheaper,inform,21,659,7,L21,0,@ right okay @ extension is going to be slightly cheaper
+b,right,ackn,1,660,1,L1,1,# extension is going to be slightly cheaper @ right
+a,to shift the main socket,refer,30,661,5,L30,1,# right @ to shift the main socket
+a,that can only be done by and that does cost pounds,inform,21,662,11,L21,0,@ to shift the main socket @ that can only be done by and that does cost pounds
+a,um we can come out and fit an extension socket for you ourselves,expressPossibility,15,663,13,L15,0,@ that can only be done by and that does cost pounds @ um we can come out and fit an extension socket for you ourselves
+a,again that's expensive,inform,21,664,3,L21,0,@ um we can come out and fit an extension socket for you ourselves @ again that's expensive
+a,that's pounds,inform,21,665,2,L21,0,@ again that's expensive @ that's pounds
+b,cor,backch,5,666,1,L5,1,# that's pounds @ cor
+b,mm,backch,5,667,1,L5,0,@ cor @ mm
+b,what,exclaim,13,668,1,L13,0,@ mm @ what
+b,more expensive than to move a main box,confirm,8,669,8,L8,0,@ what @ more expensive than to move a main box
+b,that's weird,expressOpinion,14,670,2,L14,0,@ more expensive than to move a main box @ that's weird
+a,it is actually but,accept,0,671,4,L0,1,# that's weird @ it is actually but
+b,how weird,exclaim,13,672,2,L13,1,# it is actually but @ how weird
+b,yeah,ackn,1,673,1,L1,0,@ how weird @ yeah
+a,well,init,25,674,1,L25,1,# yeah @ well
+a,one of the reasons why is because i think um you can actually buy your own extension kits,inform,21,675,18,L21,0,@ well @ one of the reasons why is because i think um you can actually buy your own extension kits
+a,they're about and if you don't want to do it yourself you could perhaps get an electrician or you know a friend or whoever to do it for you yeah as i,inform,21,676,32,L21,0,@ one of the reasons why is because i think um you can actually buy your own extension kits @ they're about and if you don't want to do it yourself you could perhaps get an electrician or you know a friend or whoever to do it for you yeah as i
+b,right,ackn,1,677,1,L1,1,# they're about and if you don't want to do it yourself you could perhaps get an electrician or you know a friend or whoever to do it for you yeah as i @ right
+a,and if you don't want to do it yourself,suggest,36,678,9,L36,1,# right @ and if you don't want to do it yourself
+a,you could perhaps get an electrician or you know a friend or whoever to do it for you yeah,suggest,36,679,19,L36,0,@ and if you don't want to do it yourself @ you could perhaps get an electrician or you know a friend or whoever to do it for you yeah
+a,as i say they're only are the kits to buy from shops,inform,21,680,12,L21,0,@ you could perhaps get an electrician or you know a friend or whoever to do it for you yeah @ as i say they're only are the kits to buy from shops
+a,or we can send them ourselves through the post,suggest,36,681,9,L36,0,@ as i say they're only are the kits to buy from shops @ or we can send them ourselves through the post
+b,yeah,backch,5,682,1,L5,1,# or we can send them ourselves through the post @ yeah
+b,right,ackn,1,683,1,L1,0,@ yeah @ right
+a,hello hello,greet,18,684,2,L18,1,# right @ hello hello
+b,hello,greet,18,685,1,L18,1,# hello hello @ hello
+a,hello,greet,18,686,1,L18,1,# hello @ hello
+b,um i wanna uh um put in a new phone for my new address,direct,10,687,14,L10,1,# hello @ um i wanna uh um put in a new phone for my new address
+a,okay,accept,0,688,1,L0,1,# um i wanna uh um put in a new phone for my new address @ okay
+b,no,answ,2,689,1,L2,1,# okay @ no
+b,i've just moved from me parents,answElab,3,690,6,L3,0,@ no @ i've just moved from me parents
+b,so,init,25,691,1,L25,0,@ i've just moved from me parents @ so
+a,no okay,backch,5,692,2,L5,1,# so @ no okay
+b,hi there,greet,18,693,2,L18,1,# no okay @ hi there
+b,i i wonder if it's possible to change some of the select services that i that i've got,direct,10,694,18,L10,0,@ hi there @ i i wonder if it's possible to change some of the select services that i that i've got
+a,certainly,accept,0,695,1,L0,1,# i i wonder if it's possible to change some of the select services that i that i've got @ certainly
+a,is what's um what's your telephone number there please,reqInfo,33,696,9,L33,0,@ certainly @ is what's um what's your telephone number there please
+b,it's yeah yeah it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d,answ,2,697,32,L2,1,# is what's um what's your telephone number there please @ it's yeah yeah it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d
+b,yeah,backch,5,698,1,L5,0,@ it's yeah yeah it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d @ yeah
+b,yeah,answ,2,699,1,L2,0,@ yeah @ yeah
+b,it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think,answElab,3,700,32,L3,0,@ yeah @ it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think
+b,and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got,answElab,3,701,32,L3,0,@ it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think @ and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got
+b,that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got ring ring,answElab,3,702,32,L3,0,@ and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got @ that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got ring ring
+a,okay,ackn,1,703,1,L1,1,# that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got ring ring @ okay
+a,uh what did you want to uh change with that mister yeah let me have a just waiting for um the computer to warm up,reqDirect,32,704,25,L32,0,@ okay @ uh what did you want to uh change with that mister yeah let me have a just waiting for um the computer to warm up
+b,well,init,25,705,1,L25,1,# uh what did you want to uh change with that mister yeah let me have a just waiting for um the computer to warm up @ well
+b,can you see from there what services i've got on,reqInfo,33,706,10,L33,0,@ well @ can you see from there what services i've got on
+a,yeah,answ,2,707,1,L2,1,# can you see from there what services i've got on @ yeah
+a,let me have a,informIntent,24,708,4,L24,0,@ yeah @ let me have a
+b,i've got um call waiting,inform,21,709,5,L21,1,# let me have a @ i've got um call waiting
+b,i've got caller i d and i think i've got ring ring back five or whatever it was called,inform,21,710,19,L21,0,@ i've got um call waiting @ i've got caller i d and i think i've got ring ring back five or whatever it was called
+b,and i think i've got ring ring back five or whatever it was called,inform,21,711,14,L21,0,@ i've got caller i d and i think i've got ring ring back five or whatever it was called @ and i think i've got ring ring back five or whatever it was called
+a,just waiting for um the computer to warm up,inform,21,712,9,L21,1,# and i think i've got ring ring back five or whatever it was called @ just waiting for um the computer to warm up
+b,hello,greet,18,713,1,L18,1,# just waiting for um the computer to warm up @ hello
+b,yeah uh,ackn,1,714,2,L1,0,@ hello @ yeah uh
+b,this um thing when you ring somebody and they're engaged and they say press yeah uh last year i phoned up and said i didn't want it i wanted it taking off,refer,30,715,32,L30,0,@ yeah uh @ this um thing when you ring somebody and they're engaged and they say press yeah uh last year i phoned up and said i didn't want it i wanted it taking off
+a,right,ackn,1,716,1,L1,1,# this um thing when you ring somebody and they're engaged and they say press yeah uh last year i phoned up and said i didn't want it i wanted it taking off @ right
+a,the Ringback,confirm,8,717,2,L8,0,@ right @ the Ringback
+b,yeah,ackn,1,718,1,L1,1,# the Ringback @ yeah
+a,yeah,ackn,1,719,1,L1,1,# yeah @ yeah
+b,uh last year,refer,30,720,3,L30,1,# yeah @ uh last year
+b,i phoned up and said i didn't want it i wanted it taking off,inform,21,721,14,L21,0,@ uh last year @ i phoned up and said i didn't want it i wanted it taking off
+b,yeah,ackn,1,722,1,L1,0,@ i phoned up and said i didn't want it i wanted it taking off @ yeah
+b,i want to try and change my Friends And Family numbers and um a,expressWish,17,723,14,L17,0,@ yeah @ i want to try and change my Friends And Family numbers and um a
+b,because i can't find anything with my actual full account number on,inform,21,724,12,L21,0,@ i want to try and change my Friends And Family numbers and um a @ because i can't find anything with my actual full account number on
+b,i tried this the other week and i couldn't i couldn't find anything,inform,21,725,13,L21,0,@ because i can't find anything with my actual full account number on @ i tried this the other week and i couldn't i couldn't find anything
+a,ah,backch,5,726,1,L5,1,# i tried this the other week and i couldn't i couldn't find anything @ ah
+a,right,ackn,1,727,1,L1,0,@ ah @ right
+a,okay,ackn,1,728,1,L1,0,@ right @ okay
+a,so,init,25,729,1,L25,0,@ okay @ so
+a,you don't have one of the bills at all no,confirm,8,730,10,L8,0,@ so @ you don't have one of the bills at all no
+b,no,ackn,1,731,1,L1,1,# you don't have one of the bills at all no @ no
+b,not handy,ackn,1,732,2,L1,0,@ no @ not handy
+a,right,ackn,1,733,1,L1,1,# not handy @ right
+a,okay,init,25,734,1,L25,0,@ right @ okay
+a,what what's your telephone number please,reqInfo,33,735,6,L33,0,@ okay @ what what's your telephone number please
+b,it's it's missus and it's which is and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the,answ,2,736,32,L2,1,# what what's your telephone number please @ it's it's missus and it's which is and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the
+a,mm hmm,backch,5,737,2,L5,1,# it's it's missus and it's which is and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the @ mm hmm
+a,right,ackn,1,738,1,L1,0,@ mm hmm @ right
+a,okay,ackn,1,739,1,L1,0,@ right @ okay
+a,can you confirm your full name and address with your postal code please,reqInfo,33,740,13,L33,0,@ okay @ can you confirm your full name and address with your postal code please
+b,it's missus,answ,2,741,2,L2,1,# can you confirm your full name and address with your postal code please @ it's missus
+b,and it's which is,answElab,3,742,4,L3,0,@ it's missus @ and it's which is
+b,and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the the most important one is my best,inform,21,743,32,L21,0,@ and it's which is @ and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the the most important one is my best
+a,mm hmm,backch,5,744,2,L5,1,# and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the the most important one is my best @ mm hmm
+a,mm hmm,backch,5,745,2,L5,0,@ mm hmm @ mm hmm
+a,lovely,appreciate,4,746,1,L4,0,@ mm hmm @ lovely
+a,that's great,appreciate,4,747,2,L4,0,@ lovely @ that's great
+a,do you know roughly how much your last bill was for missus that's lovely thank you right oh right okay no problem and so it's uh a couple of numbers you want,reqInfo,33,748,32,L33,0,@ that's great @ do you know roughly how much your last bill was for missus that's lovely thank you right oh right okay no problem and so it's uh a couple of numbers you want
+b,yes,answ,2,749,1,L2,1,# do you know roughly how much your last bill was for missus that's lovely thank you right oh right okay no problem and so it's uh a couple of numbers you want @ yes
+b,it was for pounds and about pence i believe,answElab,3,750,9,L3,0,@ yes @ it was for pounds and about pence i believe
+a,that's lovely,appreciate,4,751,2,L4,1,# it was for pounds and about pence i believe @ that's lovely
+a,thank you,thank,37,752,2,L37,0,@ that's lovely @ thank you
+a,right,ackn,1,753,1,L1,0,@ thank you @ right
+b,cause it was paid on Saturday yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged,inform,21,754,32,L21,1,# right @ cause it was paid on Saturday yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged
+a,oh right,ackn,1,755,2,L1,1,# cause it was paid on Saturday yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged @ oh right
+a,okay,ackn,1,756,1,L1,0,@ oh right @ okay
+a,no problem,accept,0,757,2,L0,0,@ okay @ no problem
+a,and so,init,25,758,2,L25,0,@ no problem @ and so
+a,it's uh a couple of numbers you want to change on Friends And Family is it,confirm,8,759,16,L8,0,@ and so @ it's uh a couple of numbers you want to change on Friends And Family is it
+b,yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged on that neither of us have,ackn,1,760,32,L1,1,# it's uh a couple of numbers you want to change on Friends And Family is it @ yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged on that neither of us have
+b,i want to change the the most important one is my best friends number,direct,10,761,14,L10,0,@ yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged on that neither of us have @ i want to change the the most important one is my best friends number
+a,right,accept,0,762,1,L0,1,# i want to change the the most important one is my best friends number @ right
+a,okay,accept,0,763,1,L0,0,@ right @ okay
+b,because i've been ringing her for ages,inform,21,764,7,L21,1,# okay @ because i've been ringing her for ages
+b,and we've just twigged on that neither of us have changed it,inform,21,765,12,L21,0,@ because i've been ringing her for ages @ and we've just twigged on that neither of us have changed it
+b,and she's moved,inform,21,766,3,L21,0,@ and we've just twigged on that neither of us have changed it @ and she's moved
+a,right,backch,5,767,1,L5,1,# and she's moved @ right
+b,hi,greet,18,768,1,L18,1,# right @ hi
+b,can i have please,direct,10,769,4,L10,0,@ hi @ can i have please
+a,certainly,accept,0,770,1,L0,1,# can i have please @ certainly
+a,hold the line please,hold,19,771,4,L19,0,@ certainly @ hold the line please
+b,thank you,thank,37,772,2,L37,1,# hold the line please @ thank you
+b,hi um,greet,18,773,2,L18,0,@ thank you @ hi um
+b,if you can try this number for me,direct,10,774,8,L10,0,@ hi um @ if you can try this number for me
+b,cause i keep ringing,inform,21,775,4,L21,0,@ if you can try this number for me @ cause i keep ringing
+b,and it's engaged i don't know if it's just that they're constantly talking or whether it's just er a fault okay the code is treble and the number's double hmm thank you,inform,21,776,32,L21,0,@ cause i keep ringing @ and it's engaged i don't know if it's just that they're constantly talking or whether it's just er a fault okay the code is treble and the number's double hmm thank you
+b,i don't know if it's just that they're constantly talking or whether it's just er a fault,expressOpinion,14,777,17,L14,0,@ and it's engaged i don't know if it's just that they're constantly talking or whether it's just er a fault okay the code is treble and the number's double hmm thank you @ i don't know if it's just that they're constantly talking or whether it's just er a fault
+a,certainly,accept,0,778,1,L0,1,# i don't know if it's just that they're constantly talking or whether it's just er a fault @ certainly
+a,i'm sorry,expressRegret,16,779,2,L16,0,@ certainly @ i'm sorry
+a,what's the code and number you are dialling,reqInfo,33,780,8,L33,0,@ i'm sorry @ what's the code and number you are dialling
+b,okay,ackn,1,781,1,L1,1,# what's the code and number you are dialling @ okay
+b,the code is treble and the number's double hmm thank you oh God yeah thank you,answ,2,782,16,L2,0,@ okay @ the code is treble and the number's double hmm thank you oh God yeah thank you
+b,and the number's double hmm thank you oh God yeah thank you,answElab,3,783,12,L3,0,@ the code is treble and the number's double hmm thank you oh God yeah thank you @ and the number's double hmm thank you oh God yeah thank you
+a,thank you just just try the call for you ah that's ringing for you,thank,37,784,14,L37,1,# and the number's double hmm thank you oh God yeah thank you @ thank you just just try the call for you ah that's ringing for you
+a,just just try the call for you ah that's ringing for you,informIntent,24,785,12,L24,0,@ thank you just just try the call for you ah that's ringing for you @ just just try the call for you ah that's ringing for you
+b,hmm,backch,5,786,1,L5,1,# just just try the call for you ah that's ringing for you @ hmm
+b,thank you,thank,37,787,2,L37,0,@ hmm @ thank you
+a,ah that's ringing for you,inform,21,788,5,L21,1,# thank you @ ah that's ringing for you
+b,oh God,exclaim,13,789,2,L13,1,# ah that's ringing for you @ oh God
+b,yeah,ackn,1,790,1,L1,0,@ oh God @ yeah
+b,thank you,thank,37,791,2,L37,0,@ yeah @ thank you
+b,yes,ackn,1,792,1,L1,0,@ thank you @ yes
+b,i'm looking for um in er in place},direct,10,793,8,L10,0,@ yes @ i'm looking for um in er in place}
+a,what you're looking for a number for them,reqDirect,32,794,8,L32,1,# i'm looking for um in er in place} @ what you're looking for a number for them
+b,yeah,accept,0,795,1,L0,1,# what you're looking for a number for them @ yeah
+b,have i got the right,reqInfo,33,796,5,L33,0,@ yeah @ have i got the right
+a,right,backch,5,797,1,L5,1,# have i got the right @ right
+a,no,answ,2,798,1,L2,0,@ right @ no
+a,you'll need directory enquiries i'm afraid on shall i put you through hold the line please,answElab,3,799,16,L3,0,@ no @ you'll need directory enquiries i'm afraid on shall i put you through hold the line please
+a,shall i put you through,reqDirect,32,800,5,L32,0,@ you'll need directory enquiries i'm afraid on shall i put you through hold the line please @ shall i put you through
+b,that's great,appreciate,4,801,2,L4,1,# shall i put you through @ that's great
+b,thanks,thank,37,802,1,L37,0,@ that's great @ thanks
+a,hold the line please,hold,19,803,4,L19,1,# thanks @ hold the line please
+b,hello there,greet,18,804,2,L18,1,# hold the line please @ hello there
+b,er i'm been trying to get a number um in and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello,inform,21,805,32,L21,0,@ hello there @ er i'm been trying to get a number um in and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello
+b,and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello alright thank you,inform,21,806,25,L21,0,@ er i'm been trying to get a number um in and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello @ and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello alright thank you
+b,but there's no sound,inform,21,807,4,L21,0,@ and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello alright thank you @ but there's no sound
+a,right,ackn,1,808,1,L1,1,# but there's no sound @ right
+a,sorry,expressRegret,16,809,1,L16,0,@ right @ sorry
+a,what's the code and number that you're calling please,reqInfo,33,810,9,L33,0,@ sorry @ what's the code and number that you're calling please
+a,yes please,accept,0,811,2,L0,0,@ what's the code and number that you're calling please @ yes please
+b,is,informCont,22,812,1,L22,1,# yes please @ is
+b,what's the code,selfTalk,35,813,3,L35,0,@ is @ what's the code
+b,yeah,accept,0,814,1,L0,0,@ what's the code @ yeah
+a,yeah,backch,5,815,1,L5,1,# yeah @ yeah
+a,thank you,thank,37,816,2,L37,0,@ yeah @ thank you
+a,if you just hold the line please hello hello yes as you can hear i'm having the same problems as you we'll put you through to the faults department and they'll find,hold,19,817,32,L19,0,@ thank you @ if you just hold the line please hello hello yes as you can hear i'm having the same problems as you we'll put you through to the faults department and they'll find
+a,yes,init,25,818,1,L25,0,@ if you just hold the line please hello hello yes as you can hear i'm having the same problems as you we'll put you through to the faults department and they'll find @ yes
+a,as you can hear i'm having the same problems as you,inform,21,819,11,L21,0,@ yes @ as you can hear i'm having the same problems as you
+a,we'll put you through to the faults department,informIntent,24,820,8,L24,0,@ as you can hear i'm having the same problems as you @ we'll put you through to the faults department
+a,and they'll find out what's going on,inform,21,821,7,L21,0,@ we'll put you through to the faults department @ and they'll find out what's going on
+b,right,backch,5,822,1,L5,1,# and they'll find out what's going on @ right
+b,hello,backch,5,823,1,L5,0,@ right @ hello
+b,alright,ackn,1,824,1,L1,0,@ hello @ alright
+b,thank you,thank,37,825,2,L37,0,@ alright @ thank you
+b,er could i have a telephone number please,reqInfo,33,826,8,L33,0,@ thank you @ er could i have a telephone number please
+a,it's probably directory enquiries you require,inform,21,827,6,L21,1,# er could i have a telephone number please @ it's probably directory enquiries you require
+a,what's the who's the number for,reqInfo,33,828,6,L33,0,@ it's probably directory enquiries you require @ what's the who's the number for
+b,er no it's a company please if you wouldn't mind thank you very much,answ,2,829,14,L2,1,# what's the who's the number for @ er no it's a company please if you wouldn't mind thank you very much
+a,is it is it a private number is it or a company number,reqInfo,33,830,13,L33,1,# er no it's a company please if you wouldn't mind thank you very much @ is it is it a private number is it or a company number
+b,no,negate,26,831,1,L26,1,# is it is it a private number is it or a company number @ no
+b,it's a company please if you wouldn't mind thank you very much,answ,2,832,12,L2,0,@ no @ it's a company please if you wouldn't mind thank you very much
+a,yeah,backch,5,833,1,L5,1,# it's a company please if you wouldn't mind thank you very much @ yeah
+a,right,ackn,1,834,1,L1,0,@ yeah @ right
+a,you actually you do need directories on would you like me to put you through to them ah it's ring for you,inform,21,835,22,L21,0,@ right @ you actually you do need directories on would you like me to put you through to them ah it's ring for you
+a,would you like me to put you through to them,offer,27,836,10,L27,0,@ you actually you do need directories on would you like me to put you through to them ah it's ring for you @ would you like me to put you through to them
+b,please,accept,0,837,1,L0,1,# would you like me to put you through to them @ please
+b,if you wouldn't mind,accept,0,838,4,L0,0,@ please @ if you wouldn't mind
+a,ah it's ring for you,inform,21,839,5,L21,1,# if you wouldn't mind @ ah it's ring for you
+b,thank you very much,thank,37,840,4,L37,1,# ah it's ring for you @ thank you very much
+b,hello,greet,18,841,1,L18,0,@ thank you very much @ hello
+b,do you try a number i can't seem to get hold of,reqInfo,33,842,12,L33,0,@ hello @ do you try a number i can't seem to get hold of
+a,certainly,answ,2,843,1,L2,1,# do you try a number i can't seem to get hold of @ certainly
+a,is it engaged all the while or is it,reqInfo,33,844,9,L33,0,@ certainly @ is it engaged all the while or is it
+a,it's a shop is it,confirm,8,845,5,L8,0,@ is it engaged all the while or is it @ it's a shop is it
+a,and what's happening when you dial them,reqInfo,33,846,7,L33,0,@ it's a shop is it @ and what's happening when you dial them
+b,er i'm getting no reply some,answ,2,847,6,L2,1,# and what's happening when you dial them @ er i'm getting no reply some
+b,i tried yesterday and today so far,inform,21,848,7,L21,0,@ er i'm getting no reply some @ i tried yesterday and today so far
+a,alright them,backch,5,849,2,L5,1,# i tried yesterday and today so far @ alright them
+a,i'm sorry about that,expressRegret,16,850,4,L16,0,@ alright them @ i'm sorry about that
+a,what was the number you were calling please,reqInfo,33,851,8,L33,0,@ i'm sorry about that @ what was the number you were calling please
+b,its' from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing,answ,2,852,32,L2,1,# what was the number you were calling please @ its' from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing
+b,from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or,refer,30,853,32,L30,0,@ its' from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing @ from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or
+a,yep,ackn,1,854,1,L1,1,# from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or @ yep
+a,lets have a look at that for you and what's the name of the business you're trying to get through to stamps and stuff is it yes that's right let's just try,informIntent,24,855,32,L24,0,@ yep @ lets have a look at that for you and what's the name of the business you're trying to get through to stamps and stuff is it yes that's right let's just try
+a,and what's the name of the business you're trying to get through to,reqInfo,33,856,13,L33,0,@ lets have a look at that for you and what's the name of the business you're trying to get through to stamps and stuff is it yes that's right let's just try @ and what's the name of the business you're trying to get through to
+b,uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or something,answ,2,857,32,L2,1,# and what's the name of the business you're trying to get through to @ uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or something
+a,stamps and stuff is it,confirm,8,858,5,L8,1,# uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or something @ stamps and stuff is it
+b,there's a funny one isn't it,expressOpinion,14,859,6,L14,1,# stamps and stuff is it @ there's a funny one isn't it
+a,yes,ackn,1,860,1,L1,1,# there's a funny one isn't it @ yes
+a,that's right let's just try that for you you've left it ringing for a little while have you hmm but they're not in again today either by the sounds of it right,ackn,1,861,32,L1,0,@ yes @ that's right let's just try that for you you've left it ringing for a little while have you hmm but they're not in again today either by the sounds of it right
+a,let's just try that for you,informIntent,24,862,6,L24,0,@ that's right let's just try that for you you've left it ringing for a little while have you hmm but they're not in again today either by the sounds of it right @ let's just try that for you
+b,ta um yes and yesterday i thought well yesterday it might be a half closing or something um but that's alright,thank,37,863,21,L37,1,# let's just try that for you @ ta um yes and yesterday i thought well yesterday it might be a half closing or something um but that's alright
+a,you've left it ringing for a little while have you,reqInfo,33,864,10,L33,1,# ta um yes and yesterday i thought well yesterday it might be a half closing or something um but that's alright @ you've left it ringing for a little while have you
+b,um yes,answ,2,865,2,L2,1,# you've left it ringing for a little while have you @ um yes
+b,and yesterday i thought well yesterday it might be a half closing or something,inform,21,866,14,L21,0,@ um yes @ and yesterday i thought well yesterday it might be a half closing or something
+a,hmm,ackn,1,867,1,L1,1,# and yesterday i thought well yesterday it might be a half closing or something @ hmm
+a,but they're not in again today either by the sounds of it right,inform,21,868,13,L21,0,@ hmm @ but they're not in again today either by the sounds of it right
+a,what i'll do is put you through to our fault department,informIntent,24,869,11,L24,0,@ but they're not in again today either by the sounds of it right @ what i'll do is put you through to our fault department
+a,and they'll test the line for you to make sure their phone's ringing at the other end,inform,21,870,17,L21,0,@ what i'll do is put you through to our fault department @ and they'll test the line for you to make sure their phone's ringing at the other end
+b,um,backch,5,871,1,L5,1,# and they'll test the line for you to make sure their phone's ringing at the other end @ um
+b,but that's,backch,5,872,2,L5,0,@ um @ but that's
+b,alright,ackn,1,873,1,L1,0,@ but that's @ alright
+a,good morning um,greet,18,874,3,L18,1,# alright @ good morning um
+b,hello,greet,18,875,1,L18,1,# good morning um @ hello
+b,um you know um that number that can do like give you an alarm yeah,refer,30,876,15,L30,0,@ hello @ um you know um that number that can do like give you an alarm yeah
+a,yes,ackn,1,877,1,L1,1,# um you know um that number that can do like give you an alarm yeah @ yes
+a,star star the time star star the time using a twenty four hour clock followed by the hash mark thank you bye,inform,21,878,22,L21,0,@ yes @ star star the time star star the time using a twenty four hour clock followed by the hash mark thank you bye
+a,the time,inform,21,879,2,L21,0,@ star star the time star star the time using a twenty four hour clock followed by the hash mark thank you bye @ the time
+a,star star,inform,21,880,2,L21,0,@ the time @ star star
+a,the time using a twenty four hour clock followed by the hash mark,inform,21,881,13,L21,0,@ star star @ the time using a twenty four hour clock followed by the hash mark
+b,yeah,backch,5,882,1,L5,1,# the time using a twenty four hour clock followed by the hash mark @ yeah
+b,okay,ackn,1,883,1,L1,0,@ yeah @ okay
+b,thanks a lot,thank,37,884,3,L37,0,@ okay @ thanks a lot
+a,thank you,thank,37,885,2,L37,1,# thanks a lot @ thank you
+a,bye,bye,6,886,1,L6,0,@ thank you @ bye
+b,uh hello,greet,18,887,2,L18,1,# bye @ uh hello
+b,um how much would an number cost if i phoned now please,reqInfo,33,888,12,L33,0,@ uh hello @ um how much would an number cost if i phoned now please
+b,yes please,ackn,1,889,2,L1,0,@ um how much would an number cost if i phoned now please @ yes please
+a,and what's the rest of the number,reqInfo,33,890,7,L33,1,# yes please @ and what's the rest of the number
+b,um pence a minute it's ok oh thanks bye,answ,2,891,9,L2,1,# and what's the rest of the number @ um pence a minute it's ok oh thanks bye
+a,thank you it's charged at national rate it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh,thank,37,892,24,L37,1,# um pence a minute it's ok oh thanks bye @ thank you it's charged at national rate it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh
+a,it's charged at national rate,answ,2,893,5,L2,0,@ thank you it's charged at national rate it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh @ it's charged at national rate
+a,it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh,answElab,3,894,17,L3,0,@ it's charged at national rate @ it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh
+a,excuse me,expressRegret,16,895,2,L16,0,@ it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh @ excuse me
+a,yes,ackn,1,896,1,L1,0,@ excuse me @ yes
+a,sorry,expressRegret,16,897,1,L16,0,@ yes @ sorry
+b,thanks,thank,37,898,1,L37,1,# sorry @ thanks
+a,what number yeah it's per minute uh,reqInfo,33,899,7,L33,1,# thanks @ what number yeah it's per minute uh
+a,yeah,ackn,1,900,1,L1,0,@ what number yeah it's per minute uh @ yeah
+a,it's per minute uh,inform,21,901,4,L21,0,@ yeah @ it's per minute uh
+b,bye,backch,5,902,1,L5,1,# it's per minute uh @ bye
+b,could you tell me the number,reqInfo,33,903,6,L33,0,@ bye @ could you tell me the number
+b,have i got the right uh uh number i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah,reqInfo,33,904,32,L33,0,@ could you tell me the number @ have i got the right uh uh number i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah
+b,i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah,reqInfo,33,905,24,L33,0,@ have i got the right uh uh number i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah @ i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah
+b,have i got the right,reqInfo,33,906,5,L33,0,@ i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah @ have i got the right
+a,right,ackn,1,907,1,L1,1,# have i got the right @ right
+a,you want to find out the number concerning the shuttle,confirm,8,908,10,L8,0,@ right @ you want to find out the number concerning the shuttle
+b,yeah,ackn,1,909,1,L1,1,# you want to find out the number concerning the shuttle @ yeah
+a,right,ackn,1,910,1,L1,1,# yeah @ right
+a,you'll need directory enquiries on,answ,2,911,5,L2,0,@ right @ you'll need directory enquiries on
+a,shall i put you through to them,offer,27,912,7,L27,0,@ you'll need directory enquiries on @ shall i put you through to them
+b,oh sorry yes,backch,5,913,3,L5,1,# shall i put you through to them @ oh sorry yes
+b,uh yes please,accept,0,914,3,L0,0,@ oh sorry yes @ uh yes please
+a,certainly,accept,0,915,1,L0,1,# uh yes please @ certainly
+a,hold the line please,hold,19,916,4,L19,0,@ certainly @ hold the line please
+b,yeah,backch,5,917,1,L5,1,# hold the line please @ yeah
+b,hello,greet,18,918,1,L18,0,@ yeah @ hello
+b,can you give me the number of please,reqInfo,33,919,8,L33,0,@ hello @ can you give me the number of please
+a,oh you need directory enquiries on would you like me to connect you,inform,21,920,13,L21,1,# can you give me the number of please @ oh you need directory enquiries on would you like me to connect you
+a,would you like me to connect you,offer,27,921,7,L27,0,@ oh you need directory enquiries on would you like me to connect you @ would you like me to connect you
+b,yes please,accept,0,922,2,L0,1,# would you like me to connect you @ yes please
+b,yeah,ackn,1,923,1,L1,0,@ yes please @ yeah
+b,good afternoon can you try this number for me cause well basically i keep getting a message saying sorry the number i'm called is unavailable is that mean it's been disconnected okay,greet,18,924,32,L18,0,@ yeah @ good afternoon can you try this number for me cause well basically i keep getting a message saying sorry the number i'm called is unavailable is that mean it's been disconnected okay
+b,can you try this number for me,direct,10,925,7,L10,0,@ good afternoon can you try this number for me cause well basically i keep getting a message saying sorry the number i'm called is unavailable is that mean it's been disconnected okay @ can you try this number for me
+b,cause well basically i keep getting a message saying sorry the number i'm called is unavailable,inform,21,926,16,L21,0,@ can you try this number for me @ cause well basically i keep getting a message saying sorry the number i'm called is unavailable
+b,is that mean it's been disconnected,reqInfo,33,927,6,L33,0,@ cause well basically i keep getting a message saying sorry the number i'm called is unavailable @ is that mean it's been disconnected
+a,it can mean a lot of different things caller,inform,21,928,9,L21,1,# is that mean it's been disconnected @ it can mean a lot of different things caller
+a,bear with me,hold,19,929,3,L19,0,@ it can mean a lot of different things caller @ bear with me
+a,and i'll uh try the call for you,informIntent,24,930,8,L24,0,@ bear with me @ and i'll uh try the call for you
+a,what's the code and number that you tried,reqInfo,33,931,8,L33,0,@ and i'll uh try the call for you @ what's the code and number that you tried
+b,okay,backch,5,932,1,L5,1,# what's the code and number that you tried @ okay
+b,it's double it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and,answ,2,933,32,L2,0,@ okay @ it's double it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and
+a,yes,ackn,1,934,1,L1,1,# it's double it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and @ yes
+b,it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and they've ok,inform,21,935,32,L21,1,# yes @ it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and they've ok
+a,double thank you would you like to hold the line there for me please thank you yeah we don't have a caller with that number anymore i'm afraid haven't got what sorry,echo,12,936,32,L12,1,# it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and they've ok @ double thank you would you like to hold the line there for me please thank you yeah we don't have a caller with that number anymore i'm afraid haven't got what sorry
+a,thank you,thank,37,937,2,L37,0,@ double thank you would you like to hold the line there for me please thank you yeah we don't have a caller with that number anymore i'm afraid haven't got what sorry @ thank you
+a,would you like to hold the line there for me please,hold,19,938,11,L19,0,@ thank you @ would you like to hold the line there for me please
+a,thank you,thank,37,939,2,L37,0,@ would you like to hold the line there for me please @ thank you
+a,yeah,init,25,940,1,L25,0,@ thank you @ yeah
+a,we don't have a caller with that number anymore i'm afraid,inform,21,941,11,L21,0,@ yeah @ we don't have a caller with that number anymore i'm afraid
+b,yes,backch,5,942,1,L5,1,# we don't have a caller with that number anymore i'm afraid @ yes
+b,you haven't got a number which is to that caller by any chance,reqInfo,33,943,13,L33,0,@ yes @ you haven't got a number which is to that caller by any chance
+a,haven't got what sorry,reqInfo,33,944,4,L33,1,# you haven't got a number which is to that caller by any chance @ haven't got what sorry
+b,the number which goes to the caller by any chance,answ,2,945,10,L2,1,# haven't got what sorry @ the number which goes to the caller by any chance
+a,um i can put you through to to see if they have,offer,27,946,12,L27,1,# the number which goes to the caller by any chance @ um i can put you through to to see if they have
+b,i've already tried and they've ok then uh uh to change a number out of interest have they changed their number or alright then ok thanks a lot then actually,inform,21,947,30,L21,1,# um i can put you through to to see if they have @ i've already tried and they've ok then uh uh to change a number out of interest have they changed their number or alright then ok thanks a lot then actually
+b,and they've,inform,21,948,2,L21,0,@ i've already tried and they've ok then uh uh to change a number out of interest have they changed their number or alright then ok thanks a lot then actually @ and they've
+a,oh no,negate,26,949,2,L26,1,# and they've @ oh no
+a,so,init,25,950,1,L25,0,@ oh no @ so
+a,they haven't got any listing,inform,21,951,5,L21,0,@ so @ they haven't got any listing
+a,i'm sorry i haven't,expressRegret,16,952,4,L16,0,@ they haven't got any listing @ i'm sorry i haven't
+b,ok then,ackn,1,953,2,L1,1,# i'm sorry i haven't @ ok then
+a,ok,ackn,1,954,1,L1,1,# ok then @ ok
+a,i'm sorry about that,expressRegret,16,955,4,L16,0,@ ok @ i'm sorry about that
+b,uh,backch,5,956,1,L5,1,# i'm sorry about that @ uh
+b,uh to change a number,raiseIssue,29,957,5,L29,0,@ uh @ uh to change a number
+b,out of interest have they changed their number or,reqInfo,33,958,9,L33,0,@ uh to change a number @ out of interest have they changed their number or
+a,they could have changed the number,answ,2,959,6,L2,1,# out of interest have they changed their number or @ they could have changed the number
+a,they could have gone ex directory,answElab,3,960,6,L3,0,@ they could have changed the number @ they could have gone ex directory
+a,they could have changed to a different telephone company,answElab,3,961,9,L3,0,@ they could have gone ex directory @ they could have changed to a different telephone company
+a,any of those,answElab,3,962,3,L3,0,@ they could have changed to a different telephone company @ any of those
+a,but we wouldn't be able to tell you at all,inform,21,963,10,L21,0,@ any of those @ but we wouldn't be able to tell you at all
+a,we could they could have just uh not have a phone anymore,expressPossibility,15,964,12,L15,0,@ but we wouldn't be able to tell you at all @ we could they could have just uh not have a phone anymore
+b,alright then,ackn,1,965,2,L1,1,# we could they could have just uh not have a phone anymore @ alright then
+a,we don't know,inform,21,966,3,L21,1,# alright then @ we don't know
+b,ok,init,25,967,1,L25,1,# we don't know @ ok
+b,thanks a lot then actually,thank,37,968,5,L37,0,@ ok @ thanks a lot then actually
+a,ok,backch,5,969,1,L5,1,# thanks a lot then actually @ ok
+a,byebye,bye,6,970,1,L6,0,@ ok @ byebye
+b,hello,greet,18,971,1,L18,1,# byebye @ hello
+b,just a quick question really,refer,30,972,5,L30,0,@ hello @ just a quick question really
+b,how does one cancel the call back service,reqInfo,33,973,8,L33,0,@ just a quick question really @ how does one cancel the call back service
+a,yes,backch,5,974,1,L5,1,# how does one cancel the call back service @ yes
+a,what,reqInfo,33,975,1,L33,0,@ yes @ what
+a,you booked yourself for reminder calls,reqInfo,33,976,6,L33,0,@ what @ you booked yourself for reminder calls
+b,no uh i've booked a call back service i rang someone's number then i then i pressed number look a hash is it is it the star oh oh that's right there,answ,2,977,32,L2,1,# you booked yourself for reminder calls @ no uh i've booked a call back service i rang someone's number then i then i pressed number look a hash is it is it the star oh oh that's right there
+b,uh i've booked a call back service,answElab,3,978,7,L3,0,@ no uh i've booked a call back service i rang someone's number then i then i pressed number look a hash is it is it the star oh oh that's right there @ uh i've booked a call back service
+b,i rang someone's number,inform,21,979,4,L21,0,@ uh i've booked a call back service @ i rang someone's number
+a,yeah,ackn,1,980,1,L1,1,# i rang someone's number @ yeah
+a,and pressed number right okay to cancel it you need to press hash hash no the hash is like the noughts and crosses box or the gate yeah then and then the,complete,7,981,32,L7,0,@ yeah @ and pressed number right okay to cancel it you need to press hash hash no the hash is like the noughts and crosses box or the gate yeah then and then the
+b,then i then i pressed number look a hash is it is it the star oh oh that's right there is one yeah ah ha so press that sorry that key and,inform,21,982,32,L21,1,# and pressed number right okay to cancel it you need to press hash hash no the hash is like the noughts and crosses box or the gate yeah then and then the @ then i then i pressed number look a hash is it is it the star oh oh that's right there is one yeah ah ha so press that sorry that key and
+a,right okay,ackn,1,983,2,L1,1,# then i then i pressed number look a hash is it is it the star oh oh that's right there is one yeah ah ha so press that sorry that key and @ right okay
+a,to cancel it,complete,7,984,3,L7,0,@ right okay @ to cancel it
+a,you need to press hash hash,inform,21,985,6,L21,0,@ to cancel it @ you need to press hash hash
+b,look a hash,refer,30,986,3,L30,1,# you need to press hash hash @ look a hash
+b,is it is it the star,reqInfo,33,987,6,L33,0,@ look a hash @ is it is it the star
+a,no,answ,2,988,1,L2,1,# is it is it the star @ no
+a,the hash is like the noughts and crosses box or the gate,answElab,3,989,12,L3,0,@ no @ the hash is like the noughts and crosses box or the gate
+b,oh oh that's right,ackn,1,990,4,L1,1,# the hash is like the noughts and crosses box or the gate @ oh oh that's right
+b,there is one,inform,21,991,3,L21,0,@ oh oh that's right @ there is one
+b,yeah,ackn,1,992,1,L1,0,@ there is one @ yeah
+b,ah ha,exclaim,13,993,2,L13,0,@ yeah @ ah ha
+b,so,init,25,994,1,L25,0,@ ah ha @ so
+b,press that,confirm,8,995,2,L8,0,@ so @ press that
+b,sorry,expressRegret,16,996,1,L16,0,@ press that @ sorry
+a,yeah,backch,5,997,1,L5,1,# sorry @ yeah
+a,then and then the that key again ok byebye,inform,21,998,9,L21,0,@ yeah @ then and then the that key again ok byebye
+a,and then the that key again,inform,21,999,6,L21,0,@ then and then the that key again ok byebye @ and then the that key again
+b,that key,echo,12,1000,2,L12,1,# and then the that key again @ that key
+b,and i love you,appreciate,4,1001,4,L4,0,@ that key @ and i love you
+b,thank you very much,thank,37,1002,4,L37,0,@ and i love you @ thank you very much
+a,ok,ackn,1,1003,1,L1,1,# thank you very much @ ok
+b,cheers,thank,37,1004,1,L37,1,# ok @ cheers
+b,byebye,bye,6,1005,1,L6,0,@ cheers @ byebye
+a,byebye,bye,6,1006,1,L6,1,# byebye @ byebye
+b,hello,greet,18,1007,1,L18,1,# byebye @ hello
+b,could i have the number for please,reqInfo,33,1008,7,L33,0,@ hello @ could i have the number for please
+a,you need directory enquiries would you like me to connect you thank you,inform,21,1009,13,L21,1,# could i have the number for please @ you need directory enquiries would you like me to connect you thank you
+a,would you like me to connect you,offer,27,1010,7,L27,0,@ you need directory enquiries would you like me to connect you thank you @ would you like me to connect you
+b,please,accept,0,1011,1,L0,1,# would you like me to connect you @ please
+a,thank you,thank,37,1012,2,L37,1,# please @ thank you
+b,um i've tried a number several times,inform,21,1013,7,L21,1,# thank you @ um i've tried a number several times
+b,it's a twenty four hour seven day a week number i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she,inform,21,1014,32,L21,0,@ um i've tried a number several times @ it's a twenty four hour seven day a week number i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she
+b,i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she got through straight away however they put me on hold,inform,21,1015,32,L21,0,@ it's a twenty four hour seven day a week number i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she @ i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she got through straight away however they put me on hold
+b,um i've just had an operator ring it,inform,21,1016,8,L21,0,@ i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she got through straight away however they put me on hold @ um i've just had an operator ring it
+b,and she got through straight away however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you,inform,21,1017,32,L21,0,@ um i've just had an operator ring it @ and she got through straight away however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you
+b,however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you are no i just wondered if,inform,21,1018,32,L21,0,@ and she got through straight away however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you @ however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you are no i just wondered if
+b,could you possibly ring it for me again,direct,10,1019,8,L10,0,@ however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you are no i just wondered if @ could you possibly ring it for me again
+a,what's the number,reqInfo,33,1020,3,L33,1,# could you possibly ring it for me again @ what's the number
+a,thank you who is it you're calling what's the name of the people you're calling i'm getting the number engaged now i'll try it a couple of times but you see we,thank,37,1021,32,L37,0,@ what's the number @ thank you who is it you're calling what's the name of the people you're calling i'm getting the number engaged now i'll try it a couple of times but you see we
+a,who is it you're calling,reqInfo,33,1022,5,L33,0,@ thank you who is it you're calling what's the name of the people you're calling i'm getting the number engaged now i'll try it a couple of times but you see we @ who is it you're calling
+b,thank you,thank,37,1023,2,L37,1,# who is it you're calling @ thank you
+a,what's the name of the people you're calling,reqInfo,33,1024,8,L33,1,# thank you @ what's the name of the people you're calling
+b,oh sorry,expressRegret,16,1025,2,L16,1,# what's the name of the people you're calling @ oh sorry
+a,i'm getting the number engaged now,inform,21,1026,6,L21,1,# oh sorry @ i'm getting the number engaged now
+a,i'll try it a couple of times,informIntent,24,1027,7,L24,0,@ i'm getting the number engaged now @ i'll try it a couple of times
+a,but you see,init,25,1028,3,L25,0,@ i'll try it a couple of times @ but you see
+a,we don't get priority at all,inform,21,1029,6,L21,0,@ but you see @ we don't get priority at all
+a,we just get the same problems as yourself,inform,21,1030,8,L21,0,@ we don't get priority at all @ we just get the same problems as yourself
+b,you are,backch,5,1031,2,L5,1,# we just get the same problems as yourself @ you are
+b,no,backch,5,1032,1,L5,0,@ you are @ no
+b,i just wondered if there was something wrong with,reqInfo,33,1033,9,L33,0,@ no @ i just wondered if there was something wrong with
+a,no,answ,2,1034,1,L2,1,# i just wondered if there was something wrong with @ no
+a,you see,init,25,1035,2,L25,0,@ no @ you see
+a,the problem with double numbers is it's the same number throughout the country where you're charged at national rate,inform,21,1036,19,L21,0,@ you see @ the problem with double numbers is it's the same number throughout the country where you're charged at national rate
+a,so,init,25,1037,1,L25,0,@ the problem with double numbers is it's the same number throughout the country where you're charged at national rate @ so
+a,you know if it's a busy line,inform,21,1038,7,L21,0,@ so @ you know if it's a busy line
+a,you've got everybody all over the country ringing it,inform,21,1039,9,L21,0,@ you know if it's a busy line @ you've got everybody all over the country ringing it
+a,then that's why these are so busy,inform,21,1040,7,L21,0,@ you've got everybody all over the country ringing it @ then that's why these are so busy
+a,there's not usually a fault on it,inform,21,1041,7,L21,0,@ then that's why these are so busy @ there's not usually a fault on it
+b,yeah,backch,5,1042,1,L5,1,# there's not usually a fault on it @ yeah
+b,it's just that i tried before eight o'clock this morning,inform,21,1043,10,L21,0,@ yeah @ it's just that i tried before eight o'clock this morning
+a,hmm,ackn,1,1044,1,L1,1,# it's just that i tried before eight o'clock this morning @ hmm
+a,i suppose a lot of people have got the same idea,expressOpinion,14,1045,11,L14,0,@ hmm @ i suppose a lot of people have got the same idea
+b,i tried during the day yesterday and couldn't get through unless they've only got one literally one line,inform,21,1046,18,L21,1,# i suppose a lot of people have got the same idea @ i tried during the day yesterday and couldn't get through unless they've only got one literally one line
+a,yeah,ackn,1,1047,1,L1,1,# i tried during the day yesterday and couldn't get through unless they've only got one literally one line @ yeah
+a,well,init,25,1048,1,L25,0,@ yeah @ well
+a,that's it,accept,0,1049,2,L0,0,@ well @ that's it
+a,you see,init,25,1050,2,L25,0,@ that's it @ you see
+a,unfortunately i've got no way of knowing,inform,21,1051,7,L21,0,@ you see @ unfortunately i've got no way of knowing
+b,yeah,ackn,1,1052,1,L1,1,# unfortunately i've got no way of knowing @ yeah
+b,that's right,accept,0,1053,2,L0,0,@ yeah @ that's right
+b,okay,init,25,1054,1,L25,0,@ that's right @ okay
+b,i'll try later,informIntent,24,1055,3,L24,0,@ okay @ i'll try later
+b,bye bye,bye,6,1056,2,L6,0,@ i'll try later @ bye bye
+a,thank you,thank,37,1057,2,L37,1,# bye bye @ thank you
+a,bye bye,bye,6,1058,2,L6,0,@ thank you @ bye bye
+b,hello,greet,18,1059,1,L18,1,# bye bye @ hello
+b,could i have a number for please,reqInfo,33,1060,7,L33,0,@ hello @ could i have a number for please
+a,i'm sorry sir,expressRegret,16,1061,3,L16,1,# could i have a number for please @ i'm sorry sir
+a,you need for directory assistance,inform,21,1062,5,L21,0,@ i'm sorry sir @ you need for directory assistance
+a,would you like me to connect you,offer,27,1063,7,L27,0,@ you need for directory assistance @ would you like me to connect you
+b,no,refuse,31,1064,1,L31,1,# would you like me to connect you @ no
+b,it's alright,accept,0,1065,2,L0,0,@ no @ it's alright
+b,i'll do it myself,informIntent,24,1066,4,L24,0,@ it's alright @ i'll do it myself
+a,what the sorry did you say the code for the oh right alright byebye bye,reqInfo,33,1067,15,L33,1,# i'll do it myself @ what the sorry did you say the code for the oh right alright byebye bye
+b,pardon,pardon,28,1068,1,L28,1,# what the sorry did you say the code for the oh right alright byebye bye @ pardon
+a,sorry,expressRegret,16,1069,1,L16,1,# pardon @ sorry
+a,did you say the code for the oh right alright byebye bye,reqInfo,33,1070,12,L33,0,@ sorry @ did you say the code for the oh right alright byebye bye
+b,the i didn't say i said   alright ta ta,echo,12,1071,9,L12,1,# did you say the code for the oh right alright byebye bye @ the i didn't say i said   alright ta ta
+b,i didn't say i said   alright ta ta,answ,2,1072,8,L2,0,@ the i didn't say i said   alright ta ta @ i didn't say i said   alright ta ta
+b,i said   alright ta ta,correct,9,1073,5,L9,0,@ i didn't say i said   alright ta ta @ i said   alright ta ta
+a,oh right alright byebye bye,ackn,1,1074,5,L1,1,# i said   alright ta ta @ oh right alright byebye bye
+a,alright,ackn,1,1075,1,L1,0,@ oh right alright byebye bye @ alright
+a,byebye,bye,6,1076,1,L6,0,@ alright @ byebye
+b,alright,ackn,1,1077,1,L1,1,# byebye @ alright
+b,ta ta,bye,6,1078,2,L6,0,@ alright @ ta ta
+a,bye,bye,6,1079,1,L6,1,# ta ta @ bye
+b,yes,ackn,1,1080,1,L1,1,# bye @ yes
+b,i wondered if you could tell me how you can er dial on your touch tone telephone the alarm call in the morning,reqInfo,33,1081,23,L33,0,@ yes @ i wondered if you could tell me how you can er dial on your touch tone telephone the alarm call in the morning
+a,yes certainly,answ,2,1082,2,L2,1,# i wondered if you could tell me how you can er dial on your touch tone telephone the alarm call in the morning @ yes certainly
+a,bear with me,hold,19,1083,3,L19,0,@ yes certainly @ bear with me
+a,and i'll er bring it up on the screen for you and let you know right to set it up um you have to be familiar with the star button and the,informIntent,24,1084,32,L24,0,@ bear with me @ and i'll er bring it up on the screen for you and let you know right to set it up um you have to be familiar with the star button and the
+a,right,init,25,1085,1,L25,0,@ and i'll er bring it up on the screen for you and let you know right to set it up um you have to be familiar with the star button and the @ right
+a,to set it up um you have to be familiar with the star button and the hash button on your telephone yeah,inform,21,1086,22,L21,0,@ right @ to set it up um you have to be familiar with the star button and the hash button on your telephone yeah
+b,thank you,backch,5,1087,2,L5,1,# to set it up um you have to be familiar with the star button and the hash button on your telephone yeah @ thank you
+b,yeah,ackn,1,1088,1,L1,0,@ thank you @ yeah
+b,that's fine yeah,accept,0,1089,3,L0,0,@ yeah @ that's fine yeah
+a,got those right,reqInfo,33,1090,3,L33,1,# that's fine yeah @ got those right
+a,um to set it up you dial star star,inform,21,1091,9,L21,0,@ got those right @ um to set it up you dial star star
+b,yeah,ackn,1,1092,1,L1,1,# um to set it up you dial star star @ yeah
+a,then the time you want the the alarm to go in the twenty four hour clock,inform,21,1093,16,L21,1,# yeah @ then the time you want the the alarm to go in the twenty four hour clock
+a,so,init,25,1094,1,L25,0,@ then the time you want the the alarm to go in the twenty four hour clock @ so
+a,if it's um i don't know half past eight,inform,21,1095,9,L21,0,@ so @ if it's um i don't know half past eight
+a,it's yep and then it's hash and that's that it's done and then as you can check it and cancel it as well do you want to know how to do that,inform,21,1096,32,L21,0,@ if it's um i don't know half past eight @ it's yep and then it's hash and that's that it's done and then as you can check it and cancel it as well do you want to know how to do that
+b,right right,backch,5,1097,2,L5,1,# it's yep and then it's hash and that's that it's done and then as you can check it and cancel it as well do you want to know how to do that @ right right
+b,right yeah,ackn,1,1098,2,L1,0,@ right right @ right yeah
+a,yep,ackn,1,1099,1,L1,1,# right yeah @ yep
+b,yep,ackn,1,1100,1,L1,1,# yep @ yep
+a,and then it's hash,inform,21,1101,4,L21,1,# yep @ and then it's hash
+b,right,ackn,1,1102,1,L1,1,# and then it's hash @ right
+a,and that's that,inform,21,1103,3,L21,1,# right @ and that's that
+a,it's done,inform,21,1104,2,L21,0,@ and that's that @ it's done
+b,ok,ackn,1,1105,1,L1,1,# it's done @ ok
+a,and then as you can check it and cancel it as well,inform,21,1106,12,L21,1,# ok @ and then as you can check it and cancel it as well
+a,do you want to know how to do that as well,reqDirect,32,1107,11,L32,0,@ and then as you can check it and cancel it as well @ do you want to know how to do that as well
+b,no no,direct,10,1108,2,L10,1,# do you want to know how to do that as well @ no no
+b,that'll be alright,directElab,11,1109,3,L11,0,@ no no @ that'll be alright
+a,alright,ackn,1,1110,1,L1,1,# that'll be alright @ alright
+b,ok then,init,25,1111,2,L25,1,# alright @ ok then
+a,ok then,init,25,1112,2,L25,1,# ok then @ ok then
+b,thank you,thank,37,1113,2,L37,1,# ok then @ thank you
+b,byebye,bye,6,1114,1,L6,0,@ thank you @ byebye
+a,byebye,backch,5,1115,1,L5,1,# byebye @ byebye
+b,yeah,ackn,1,1116,1,L1,1,# byebye @ yeah
+b,can i order an alarm call please,direct,10,1117,7,L10,0,@ yeah @ can i order an alarm call please
+a,yes certainly,accept,0,1118,2,L0,1,# can i order an alarm call please @ yes certainly
+a,for what time,reqInfo,33,1119,3,L33,0,@ yes certainly @ for what time
+b,um six forty five,answ,2,1120,4,L2,1,# for what time @ um six forty five
+a,six forty five,echo,12,1121,3,L12,1,# um six forty five @ six forty five
+a,thank you,thank,37,1122,2,L37,0,@ six forty five @ thank you
+a,i'll just confirm that for you,informIntent,24,1123,6,L24,0,@ thank you @ i'll just confirm that for you
+b,thank you lovely thanks bye,thank,37,1124,5,L37,1,# i'll just confirm that for you @ thank you lovely thanks bye
+a,thank you,thank,37,1125,2,L37,1,# thank you lovely thanks bye @ thank you
+a,that's booked then,inform,21,1126,3,L21,0,@ thank you @ that's booked then
+a,we'll call you at six forty five,confirm,8,1127,7,L8,0,@ that's booked then @ we'll call you at six forty five
+b,lovely,appreciate,4,1128,1,L4,1,# we'll call you at six forty five @ lovely
+b,thanks,thank,37,1129,1,L37,0,@ lovely @ thanks
+b,bye,bye,6,1130,1,L6,0,@ thanks @ bye
+a,thank you,thank,37,1131,2,L37,1,# bye @ thank you
+a,bye,bye,6,1132,1,L6,0,@ thank you @ bye
+b,hello,greet,18,1133,1,L18,1,# bye @ hello
+b,could you put me through to telegrams please,direct,10,1134,8,L10,0,@ hello @ could you put me through to telegrams please
+a,er well,init,25,1135,2,L25,1,# could you put me through to telegrams please @ er well
+a,i wonder if you could dial that yourself,suggest,36,1136,8,L36,0,@ er well @ i wonder if you could dial that yourself
+a,it's thank you bye bye,inform,21,1137,5,L21,0,@ i wonder if you could dial that yourself @ it's thank you bye bye
+b,okay then,accept,0,1138,2,L0,1,# it's thank you bye bye @ okay then
+a,thank you,thank,37,1139,2,L37,1,# okay then @ thank you
+a,bye bye,bye,6,1140,2,L6,0,@ thank you @ bye bye
+b,bye,bye,6,1141,1,L6,1,# bye bye @ bye
+b,hello,greet,18,1142,1,L18,0,@ bye @ hello
+b,could you put me through to treble please,direct,10,1143,8,L10,0,@ hello @ could you put me through to treble please
+a,sorry,pardon,28,1144,1,L28,1,# could you put me through to treble please @ sorry
+b,could you put me through to treble well the line is actually cut off at the moment but it's still getting incoming calls ah ha incoming calls oh right,direct,10,1145,29,L10,1,# sorry @ could you put me through to treble well the line is actually cut off at the moment but it's still getting incoming calls ah ha incoming calls oh right
+a,you having difficulty with it,reqInfo,33,1146,5,L33,1,# could you put me through to treble well the line is actually cut off at the moment but it's still getting incoming calls ah ha incoming calls oh right @ you having difficulty with it
+b,well,init,25,1147,1,L25,1,# you having difficulty with it @ well
+b,the line is actually cut off at the moment,inform,21,1148,9,L21,0,@ well @ the line is actually cut off at the moment
+b,but it's still getting incoming calls,inform,21,1149,6,L21,0,@ the line is actually cut off at the moment @ but it's still getting incoming calls
+a,it's cut off but it's still getting it's not one of our lines so i can try it for you but must be a number,confirm,8,1150,25,L8,1,# but it's still getting incoming calls @ it's cut off but it's still getting it's not one of our lines so i can try it for you but must be a number
+a,but it's still getting,echo,12,1151,4,L12,0,@ it's cut off but it's still getting it's not one of our lines so i can try it for you but must be a number @ but it's still getting
+b,ah ha,backch,5,1152,2,L5,1,# but it's still getting @ ah ha
+b,incoming calls,complete,7,1153,2,L7,0,@ ah ha @ incoming calls
+a,it's not one of our lines,inform,21,1154,6,L21,1,# incoming calls @ it's not one of our lines
+a,so,init,25,1155,1,L25,0,@ it's not one of our lines @ so
+a,i can try it for you,offer,27,1156,6,L27,0,@ so @ i can try it for you
+a,but must be a number,inform,21,1157,5,L21,0,@ i can try it for you @ but must be a number
+b,oh right,ackn,1,1158,2,L1,1,# but must be a number @ oh right
+b,hello,greet,18,1159,1,L18,0,@ oh right @ hello
+b,i wonder if you could help me at all um,direct,10,1160,10,L10,0,@ hello @ i wonder if you could help me at all um
+b,what's happened is put a new phone system in i've come in on a Sunday and where it normally diverts from the line it isn't is there a way i can basically,inform,21,1161,32,L21,0,@ i wonder if you could help me at all um @ what's happened is put a new phone system in i've come in on a Sunday and where it normally diverts from the line it isn't is there a way i can basically
+b,i've come in on a Sunday,inform,21,1162,6,L21,0,@ what's happened is put a new phone system in i've come in on a Sunday and where it normally diverts from the line it isn't is there a way i can basically @ i've come in on a Sunday
+b,and where it normally diverts from the line it isn't is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um,inform,21,1163,32,L21,0,@ i've come in on a Sunday @ and where it normally diverts from the line it isn't is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um
+b,is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um i've been told if i speak to you oh excuse,reqInfo,33,1164,32,L33,0,@ and where it normally diverts from the line it isn't is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um @ is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um i've been told if i speak to you oh excuse
+b,um i've been told if i speak to you,inform,21,1165,9,L21,0,@ is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um i've been told if i speak to you oh excuse @ um i've been told if i speak to you
+b,oh excuse me,hold,19,1166,3,L19,0,@ um i've been told if i speak to you @ oh excuse me
+b,my my mobile's now ringing as well,inform,21,1167,7,L21,0,@ oh excuse me @ my my mobile's now ringing as well
+b,just bear with me hello sorry about that i've in to do my marking?} you you know the unpaid Sunday as accountants do then the phones are ringing all over the place,hold,19,1168,32,L19,0,@ my my mobile's now ringing as well @ just bear with me hello sorry about that i've in to do my marking?} you you know the unpaid Sunday as accountants do then the phones are ringing all over the place
+b,hello,greet,18,1169,1,L18,0,@ just bear with me hello sorry about that i've in to do my marking?} you you know the unpaid Sunday as accountants do then the phones are ringing all over the place @ hello
+a,yeah,backch,5,1170,1,L5,1,# hello @ yeah
+a,right okay,backch,5,1171,2,L5,0,@ yeah @ right okay
+a,hello,greet,18,1172,1,L18,0,@ right okay @ hello
+b,sorry about that,expressRegret,16,1173,3,L16,1,# hello @ sorry about that
+a,that's all right,accept,0,1174,3,L0,1,# sorry about that @ that's all right
+b,i've in to do my marking?},inform,21,1175,6,L21,1,# that's all right @ i've in to do my marking?}
+b,then the phones are ringing all over the place right,inform,21,1176,10,L21,0,@ i've in to do my marking?} @ then the phones are ringing all over the place right
+b,what it is is there's a change over in our phone system,inform,21,1177,12,L21,0,@ then the phones are ringing all over the place right @ what it is is there's a change over in our phone system
+b,and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number,expressWish,17,1178,19,L17,0,@ what it is is there's a change over in our phone system @ and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number
+a,yeah,backch,5,1179,1,L5,1,# and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number @ yeah
+a,so so,init,25,1180,2,L25,0,@ yeah @ so so
+a,you want it diverting,confirm,8,1181,4,L8,0,@ so so @ you want it diverting
+b,yes,ackn,1,1182,1,L1,1,# you want it diverting @ yes
+a,have you got have you got that facility on your phone already,reqInfo,33,1183,12,L33,1,# yes @ have you got have you got that facility on your phone already
+b,it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh,inform,21,1184,32,L21,1,# have you got have you got that facility on your phone already @ it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh
+b,this is the trouble um,raiseIssue,29,1185,5,L29,0,@ it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh @ this is the trouble um
+b,i'm not a particularly technical person,inform,21,1186,6,L21,0,@ this is the trouble um @ i'm not a particularly technical person
+b,they stuck it in yesterday,inform,21,1187,5,L21,0,@ i'm not a particularly technical person @ they stuck it in yesterday
+b,and it now transpires that uh basically we uh,inform,21,1188,9,L21,0,@ they stuck it in yesterday @ and it now transpires that uh basically we uh
+b,uh i don't know really to be honest,inform,21,1189,8,L21,0,@ and it now transpires that uh basically we uh @ uh i don't know really to be honest
+b,i'm looking at this thing,inform,21,1190,5,L21,0,@ uh i don't know really to be honest @ i'm looking at this thing
+b,i've got an instruction book,inform,21,1191,5,L21,0,@ i'm looking at this thing @ i've got an instruction book
+b,but it all looks like Greek to me,expressOpinion,14,1192,8,L14,0,@ i've got an instruction book @ but it all looks like Greek to me
+a,yeah,ackn,1,1193,1,L1,1,# but it all looks like Greek to me @ yeah
+a,i mean have you got a manual with it,reqInfo,33,1194,9,L33,0,@ yeah @ i mean have you got a manual with it
+b,uh,backch,5,1195,1,L5,1,# i mean have you got a manual with it @ uh
+a,but i mean the thing is the thing is you see most people,inform,21,1196,13,L21,1,# uh @ but i mean the thing is the thing is you see most people
+a,if if you want it,inform,21,1197,5,L21,0,@ but i mean the thing is the thing is you see most people @ if if you want it
+a,you have to sort of um speak to customer services,inform,21,1198,10,L21,0,@ if if you want it @ you have to sort of um speak to customer services
+a,and it it's an option,inform,21,1199,5,L21,0,@ you have to sort of um speak to customer services @ and it it's an option
+a,it's sort of optional,inform,21,1200,4,L21,0,@ and it it's an option @ it's sort of optional
+b,right,backch,5,1201,1,L5,1,# it's sort of optional @ right
+b,right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah,ackn,1,1202,32,L1,0,@ right @ right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah
+b,just having a quick look,inform,21,1203,5,L21,0,@ right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah @ just having a quick look
+a,cos the problem is you see the our customer service aren't open till eight a m tomorrow morning,inform,21,1204,18,L21,1,# just having a quick look @ cos the problem is you see the our customer service aren't open till eight a m tomorrow morning
+b,ah,ackn,1,1205,1,L1,1,# cos the problem is you see the our customer service aren't open till eight a m tomorrow morning @ ah
+b,so,init,25,1206,1,L25,0,@ ah @ so
+b,that's a bit late in't it really,expressOpinion,14,1207,7,L14,0,@ so @ that's a bit late in't it really
+b,um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's,informIntent,24,1208,32,L24,0,@ that's a bit late in't it really @ um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's
+b,i can't see anything that makes me think,inform,21,1209,8,L21,0,@ um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's @ i can't see anything that makes me think
+b,uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do,hold,19,1210,32,L19,0,@ i can't see anything that makes me think @ uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do
+b,so,init,25,1211,1,L25,0,@ uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do @ so
+b,there's no way the operator service can actually do a call forward for me they not,reqInfo,33,1212,16,L33,0,@ so @ there's no way the operator service can actually do a call forward for me they not
+a,yeah,backch,5,1213,1,L5,1,# there's no way the operator service can actually do a call forward for me they not @ yeah
+a,no,answ,2,1214,1,L2,0,@ yeah @ no
+a,they can't they can't do that,answElab,3,1215,6,L3,0,@ no @ they can't they can't do that
+a,you you need to uh you need to speak to the the customer service really,suggest,36,1216,15,L36,0,@ they can't they can't do that @ you you need to uh you need to speak to the the customer service really
+b,mm,backch,5,1217,1,L5,1,# you you need to uh you need to speak to the the customer service really @ mm
+b,there's there's no one else i can,reqInfo,33,1218,7,L33,0,@ mm @ there's there's no one else i can
+b,do you not have twenty four hour service,reqInfo,33,1219,8,L33,0,@ there's there's no one else i can @ do you not have twenty four hour service
+a,no,answ,2,1220,1,L2,1,# do you not have twenty four hour service @ no
+b,gosh,exclaim,13,1221,1,L13,1,# no @ gosh
+b,i'm surprised,expressOpinion,14,1222,2,L14,0,@ gosh @ i'm surprised
+b,yeah,ackn,1,1223,1,L1,0,@ i'm surprised @ yeah
+b,and we they went twenty four hour fairly rapidly um,inform,21,1224,10,L21,0,@ yeah @ and we they went twenty four hour fairly rapidly um
+a,yeah,ackn,1,1225,1,L1,1,# and we they went twenty four hour fairly rapidly um @ yeah
+a,i think they're going on to twenty four hour,expressOpinion,14,1226,9,L14,0,@ yeah @ i think they're going on to twenty four hour
+a,but i mean the only the only other i mean departments are open are is the fault departments,inform,21,1227,18,L21,0,@ i think they're going on to twenty four hour @ but i mean the only the only other i mean departments are open are is the fault departments
+a,i don't know if they'll be able to help you,expressOpinion,14,1228,10,L14,0,@ but i mean the only the only other i mean departments are open are is the fault departments @ i don't know if they'll be able to help you
+a,i mean it's worth a try,expressOpinion,14,1229,6,L14,0,@ i don't know if they'll be able to help you @ i mean it's worth a try
+b,yeah,backch,5,1230,1,L5,1,# i mean it's worth a try @ yeah
+b,i tend to use other things,inform,21,1231,6,L21,0,@ yeah @ i tend to use other things
+b,it's like videos with many features,inform,21,1232,6,L21,0,@ i tend to use other things @ it's like videos with many features
+b,i just use the things that that i need and everything else sort of uh,inform,21,1233,15,L21,0,@ it's like videos with many features @ i just use the things that that i need and everything else sort of uh
+b,let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able,informIntent,24,1234,32,L24,0,@ i just use the things that that i need and everything else sort of uh @ let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able
+b,transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i,refer,30,1235,32,L30,0,@ let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able @ transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i
+b,there's probably a way of doing it,expressPossibility,15,1236,7,L15,0,@ transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i @ there's probably a way of doing it
+b,God knows what it is,exclaim,13,1237,5,L13,0,@ there's probably a way of doing it @ God knows what it is
+b,ok,init,25,1238,1,L25,0,@ God knows what it is @ ok
+b,could you put me through to them,direct,10,1239,7,L10,0,@ ok @ could you put me through to them
+b,do you think they'd be able to help me,reqInfo,33,1240,9,L33,0,@ could you put me through to them @ do you think they'd be able to help me
+a,um possibly,answ,2,1241,2,L2,1,# do you think they'd be able to help me @ um possibly
+a,i mean it is the fault reporting,raiseIssue,29,1242,7,L29,0,@ um possibly @ i mean it is the fault reporting
+a,but i mean there's no harm in asking,raiseIssue,29,1243,8,L29,0,@ i mean it is the fault reporting @ but i mean there's no harm in asking
+b,yeah,ackn,1,1244,1,L1,1,# but i mean there's no harm in asking @ yeah
+a,well,init,25,1245,1,L25,1,# yeah @ well
+a,i'll put i'll put you through anyway,informIntent,24,1246,7,L24,0,@ well @ i'll put i'll put you through anyway
+a,see if they can help you,expressPossibility,15,1247,6,L15,0,@ i'll put i'll put you through anyway @ see if they can help you
+b,thank you,thank,37,1248,2,L37,1,# see if they can help you @ thank you
+a,and can advise with anything,expressPossibility,15,1249,5,L15,1,# thank you @ and can advise with anything
+b,thank you very much,thank,37,1250,4,L37,1,# and can advise with anything @ thank you very much
+b,hello,greet,18,1251,1,L18,0,@ thank you very much @ hello
+b,could i have police please,direct,10,1252,5,L10,0,@ hello @ could i have police please
+b,police,complete,7,1253,1,L7,0,@ could i have police please @ police
+b,or whoever you'd ring for the police at for oh did i put did i do the wrong number then sorry thanks,directElab,11,1254,22,L11,0,@ police @ or whoever you'd ring for the police at for oh did i put did i do the wrong number then sorry thanks
+a,right,ackn,1,1255,1,L1,1,# or whoever you'd ring for the police at for oh did i put did i do the wrong number then sorry thanks @ right
+a,you need to speak to directory enquiries to er obtain the number,suggest,36,1256,12,L36,0,@ right @ you need to speak to directory enquiries to er obtain the number
+a,would you like me to connect,reqDirect,32,1257,6,L32,0,@ you need to speak to directory enquiries to er obtain the number @ would you like me to connect
+b,oh did i put did i do the wrong number then sorry,reqInfo,33,1258,12,L33,1,# would you like me to connect @ oh did i put did i do the wrong number then sorry
+a,yeah,answ,2,1259,1,L2,1,# oh did i put did i do the wrong number then sorry @ yeah
+a,i'll connect you through,informIntent,24,1260,4,L24,0,@ yeah @ i'll connect you through
+b,thanks,thank,37,1261,1,L37,1,# i'll connect you through @ thanks
+b,oh good,greet,18,1262,2,L18,0,@ thanks @ oh good
+b,um i've just been talking to your other lady on the another line and she said would you check this number out for me please um i keep dialing it and i,inform,21,1263,32,L21,0,@ oh good @ um i've just been talking to your other lady on the another line and she said would you check this number out for me please um i keep dialing it and i
+b,and she said,inform,21,1264,3,L21,0,@ um i've just been talking to your other lady on the another line and she said would you check this number out for me please um i keep dialing it and i @ and she said
+b,would you check this number out for me please,direct,10,1265,9,L10,0,@ and she said @ would you check this number out for me please
+a,what's the number,reqInfo,33,1266,3,L33,1,# would you check this number out for me please @ what's the number
+a,yeah,backch,5,1267,1,L5,0,@ what's the number @ yeah
+a,right,ackn,1,1268,1,L1,0,@ yeah @ right
+a,what's the problem with the number,reqInfo,33,1269,6,L33,0,@ right @ what's the problem with the number
+b,um i keep dialing it,answ,2,1270,5,L2,1,# what's the problem with the number @ um i keep dialing it
+b,and i keep getting it's not available,answElab,3,1271,7,L3,0,@ um i keep dialing it @ and i keep getting it's not available
+a,yeah,ackn,1,1272,1,L1,1,# and i keep getting it's not available @ yeah
+a,that line has been stopped,inform,21,1273,5,L21,0,@ yeah @ that line has been stopped
+a,there is no longer a customer with that number,inform,21,1274,9,L21,0,@ that line has been stopped @ there is no longer a customer with that number
+b,oh they've stopped in the last few weeks have they,reqInfo,33,1275,10,L33,1,# there is no longer a customer with that number @ oh they've stopped in the last few weeks have they
+a,yeah,answ,2,1276,1,L2,1,# oh they've stopped in the last few weeks have they @ yeah
+b,i'll just have to write a letter,informIntent,24,1277,7,L24,1,# yeah @ i'll just have to write a letter
+b,it's about a bereavement,inform,21,1278,4,L21,0,@ i'll just have to write a letter @ it's about a bereavement
+b,all right,ackn,1,1279,2,L1,0,@ it's about a bereavement @ all right
+b,thank you,thank,37,1280,2,L37,0,@ all right @ thank you
+b,bye,bye,6,1281,1,L6,0,@ thank you @ bye
+a,no problem,ackn,1,1282,2,L1,1,# bye @ no problem
+a,bye now,bye,6,1283,2,L6,0,@ no problem @ bye now
+b,hi,greet,18,1284,1,L18,1,# bye now @ hi
+b,you know um the ringback function where you press and it tells you when they're not engaged how do you cancel one of those cheers yep ok then thanks a lot tadda,refer,30,1285,32,L30,0,@ hi @ you know um the ringback function where you press and it tells you when they're not engaged how do you cancel one of those cheers yep ok then thanks a lot tadda
+b,and it tells you when they're not engaged,refer,30,1286,8,L30,0,@ you know um the ringback function where you press and it tells you when they're not engaged how do you cancel one of those cheers yep ok then thanks a lot tadda @ and it tells you when they're not engaged
+b,how do you cancel one of those,reqInfo,33,1287,7,L33,0,@ and it tells you when they're not engaged @ how do you cancel one of those
+a,yeah,backch,5,1288,1,L5,1,# how do you cancel one of those @ yeah
+a,yeah,backch,5,1289,1,L5,0,@ yeah @ yeah
+a,how do you cancel one of those,echo,12,1290,7,L12,0,@ yeah @ how do you cancel one of those
+a,um bear with me a second,hold,19,1291,6,L19,0,@ how do you cancel one of those @ um bear with me a second
+a,i'll tell you to cancel it it's hash hash ok thank you bye,informIntent,24,1292,13,L24,0,@ um bear with me a second @ i'll tell you to cancel it it's hash hash ok thank you bye
+a,to cancel it it's hash hash,answ,2,1293,6,L2,0,@ i'll tell you to cancel it it's hash hash ok thank you bye @ to cancel it it's hash hash
+b,cheers,backch,5,1294,1,L5,1,# to cancel it it's hash hash @ cheers
+b,yep,ackn,1,1295,1,L1,0,@ cheers @ yep
+b,ok then,init,25,1296,2,L25,0,@ yep @ ok then
+b,thanks a lot,thank,37,1297,3,L37,0,@ ok then @ thanks a lot
+b,tadda,bye,6,1298,1,L6,0,@ thanks a lot @ tadda
+a,ok,ackn,1,1299,1,L1,1,# tadda @ ok
+a,thank you,thank,37,1300,2,L37,0,@ ok @ thank you
+a,bye,bye,6,1301,1,L6,0,@ thank you @ bye
+b,er can i book an alarm call please,direct,10,1302,8,L10,1,# bye @ er can i book an alarm call please
+a,certainly,accept,0,1303,1,L0,1,# er can i book an alarm call please @ certainly
+a,what time for,reqInfo,33,1304,3,L33,0,@ certainly @ what time for
+b,um five forty a m,answ,2,1305,5,L2,1,# what time for @ um five forty a m
+a,five forty a m,echo,12,1306,4,L12,1,# um five forty a m @ five forty a m
+b,yep,ackn,1,1307,1,L1,1,# five forty a m @ yep
+a,hold the line one moment while i confirm the booking for you thank you we'll call you at five forty in the morning thank you goodbye,informIntent,24,1308,26,L24,1,# yep @ hold the line one moment while i confirm the booking for you thank you we'll call you at five forty in the morning thank you goodbye
+a,thank you,thank,37,1309,2,L37,0,@ hold the line one moment while i confirm the booking for you thank you we'll call you at five forty in the morning thank you goodbye @ thank you
+a,we'll call you at five forty in the morning,informIntent,24,1310,9,L24,0,@ thank you @ we'll call you at five forty in the morning
+b,right thank you,backch,5,1311,3,L5,1,# we'll call you at five forty in the morning @ right thank you
+b,ok,ackn,1,1312,1,L1,0,@ right thank you @ ok
+b,thanks very much,thank,37,1313,3,L37,0,@ ok @ thanks very much
+b,goodbye,bye,6,1314,1,L6,0,@ thanks very much @ goodbye
+a,thank you,thank,37,1315,2,L37,1,# goodbye @ thank you
+a,goodbye,bye,6,1316,1,L6,0,@ thank you @ goodbye
+b,hello do you think you could put me through to a number the problem is that they don't accept um calls from people who withheld their number ok then thanks a lot,greet,18,1317,32,L18,1,# goodbye @ hello do you think you could put me through to a number the problem is that they don't accept um calls from people who withheld their number ok then thanks a lot
+b,do you think you could put me through to a number,direct,10,1318,11,L10,0,@ hello do you think you could put me through to a number the problem is that they don't accept um calls from people who withheld their number ok then thanks a lot @ do you think you could put me through to a number
+a,yeah,accept,0,1319,1,L0,1,# do you think you could put me through to a number @ yeah
+a,what's the problem,reqInfo,33,1320,3,L33,0,@ yeah @ what's the problem
+b,the problem is that they don't accept um calls from people who withheld their number,answ,2,1321,15,L2,1,# what's the problem @ the problem is that they don't accept um calls from people who withheld their number
+a,right,ackn,1,1322,1,L1,1,# the problem is that they don't accept um calls from people who withheld their number @ right
+a,i can't actually dial that because i i mean our number is automatically withheld you need to dial in front of the number you're dialling and it should accept it yes that's,inform,21,1323,32,L21,0,@ right @ i can't actually dial that because i i mean our number is automatically withheld you need to dial in front of the number you're dialling and it should accept it yes that's
+a,you need to dial in front of the number you're dialling,suggest,36,1324,11,L36,0,@ i can't actually dial that because i i mean our number is automatically withheld you need to dial in front of the number you're dialling and it should accept it yes that's @ you need to dial in front of the number you're dialling
+a,and it should accept it,inform,21,1325,5,L21,0,@ you need to dial in front of the number you're dialling @ and it should accept it
+a,yes,ackn,1,1326,1,L1,0,@ and it should accept it @ yes
+a,that's right,ackn,1,1327,2,L1,0,@ yes @ that's right
+b,ok then,init,25,1328,2,L25,1,# that's right @ ok then
+a,ok,ackn,1,1329,1,L1,1,# ok then @ ok
+a,thank you,thank,37,1330,2,L37,0,@ ok @ thank you
+a,bye,bye,6,1331,1,L6,0,@ thank you @ bye
+b,thanks a lot,thank,37,1332,3,L37,1,# bye @ thanks a lot
+b,bye,bye,6,1333,1,L6,0,@ thanks a lot @ bye
+b,sorry to bother you i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he,expressRegret,16,1334,32,L16,0,@ bye @ sorry to bother you i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he
+b,i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he was in er what,inform,21,1335,32,L21,0,@ sorry to bother you i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he @ i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he was in er what
+b,the number was uh huh and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have,inform,21,1336,32,L21,0,@ i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he was in er what @ the number was uh huh and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have
+a,yeah,ackn,1,1337,1,L1,1,# the number was uh huh and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have @ yeah
+b,and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have any idea if i'm pay,refer,30,1338,32,L30,1,# yeah @ and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have any idea if i'm pay
+b,he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the,inform,21,1339,32,L21,0,@ and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have any idea if i'm pay @ he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the
+b,er what i like to know,refer,30,1340,6,L30,0,@ he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the @ er what i like to know
+b,do do you have any idea if i'm pay paying er what what rate i'm paying this person,reqInfo,33,1341,18,L33,0,@ er what i like to know @ do do you have any idea if i'm pay paying er what what rate i'm paying this person
+b,because i was on the line about one hour,inform,21,1342,9,L21,0,@ do do you have any idea if i'm pay paying er what what rate i'm paying this person @ because i was on the line about one hour
+a,what what what number did you dial in the first place,reqInfo,33,1343,11,L33,1,# because i was on the line about one hour @ what what what number did you dial in the first place
+a,yeah,backch,5,1344,1,L5,0,@ what what what number did you dial in the first place @ yeah
+a,and he said he was in,confirm,8,1345,6,L8,0,@ yeah @ and he said he was in
+a,i mean i mean if he'd transferred the call,inform,21,1346,9,L21,0,@ and he said he was in @ i mean i mean if he'd transferred the call
+a,then you're not paying the extra the the person who transfers the call,inform,21,1347,13,L21,0,@ i mean i mean if he'd transferred the call @ then you're not paying the extra the the person who transfers the call
+b,mm,backch,5,1348,1,L5,1,# then you're not paying the extra the the person who transfers the call @ mm
+b,ah ha,backch,5,1349,2,L5,0,@ mm @ ah ha
+b,is this this is one of the completed people your call rate or what is it i mean,reqInfo,33,1350,18,L33,0,@ ah ha @ is this this is one of the completed people your call rate or what is it i mean
+a,well,init,25,1351,1,L25,1,# is this this is one of the completed people your call rate or what is it i mean @ well
+a,it it'll be it it it won't be,answ,2,1352,8,L2,0,@ well @ it it'll be it it it won't be
+a,it depends how far away it is from you,inform,21,1353,9,L21,0,@ it it'll be it it it won't be @ it depends how far away it is from you
+a,let's have a look and see where it is,offer,27,1354,9,L27,0,@ it depends how far away it is from you @ let's have a look and see where it is
+a,one moment,hold,19,1355,2,L19,0,@ let's have a look and see where it is @ one moment
+a,but it'll just be a normal rate call,inform,21,1356,8,L21,0,@ one moment @ but it'll just be a normal rate call
+b,well,backch,5,1357,1,L5,1,# but it'll just be a normal rate call @ well
+b,mm,backch,5,1358,1,L5,0,@ well @ mm
+b,mm,backch,5,1359,1,L5,0,@ mm @ mm
+b,is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think,reqInfo,33,1360,32,L33,0,@ mm @ is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think
+a,no,answ,2,1361,1,L2,1,# is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think @ no
+a,it's not it's in the United Kingdom if you've got anything which is and then an area code it's in the United Kingdom but but if they transfer the calls they pay,answElab,3,1362,32,L3,0,@ no @ it's not it's in the United Kingdom if you've got anything which is and then an area code it's in the United Kingdom but but if they transfer the calls they pay
+b,is it is it in,reqInfo,33,1363,5,L33,1,# it's not it's in the United Kingdom if you've got anything which is and then an area code it's in the United Kingdom but but if they transfer the calls they pay @ is it is it in
+b,it is in this country,reqInfo,33,1364,5,L33,0,@ is it is it in @ it is in this country
+a,it's in the United Kingdom,answ,2,1365,5,L2,1,# it is in this country @ it's in the United Kingdom
+a,if you've got anything which is and then an area code,answElab,3,1366,11,L3,0,@ it's in the United Kingdom @ if you've got anything which is and then an area code
+a,it's in the United Kingdom,answElab,3,1367,5,L3,0,@ if you've got anything which is and then an area code @ it's in the United Kingdom
+a,but but if they transfer the calls they pay the,informDisc,23,1368,10,L23,0,@ it's in the United Kingdom @ but but if they transfer the calls they pay the
+b,oh well i'm always,backch,5,1369,4,L5,1,# but but if they transfer the calls they pay the @ oh well i'm always
+b,they pay for it,complete,7,1370,4,L7,0,@ oh well i'm always @ they pay for it
+a,extra,informCont,22,1371,1,L22,1,# they pay for it @ extra
+a,yep,ackn,1,1372,1,L1,0,@ extra @ yep
+b,aye,ackn,1,1373,1,L1,1,# yep @ aye
+b,it was really odd the funny the one hour i think great i,expressOpinion,14,1374,13,L14,0,@ aye @ it was really odd the funny the one hour i think great i
+b,towards the end of that i said do you know where you're talking to,inform,21,1375,14,L21,0,@ it was really odd the funny the one hour i think great i @ towards the end of that i said do you know where you're talking to
+b,i say aye i say great,inform,21,1376,6,L21,0,@ towards the end of that i said do you know where you're talking to @ i say aye i say great
+b,i said that's gonna cost a fortune,inform,21,1377,7,L21,0,@ i say aye i say great @ i said that's gonna cost a fortune
+a,mm,backch,5,1378,1,L5,1,# i said that's gonna cost a fortune @ mm
+a,ok then,init,25,1379,2,L25,0,@ mm @ ok then
+b,thanks a lot,thank,37,1380,3,L37,1,# ok then @ thanks a lot
+b,byebye,bye,6,1381,1,L6,0,@ thanks a lot @ byebye
+a,thank you,thank,37,1382,2,L37,1,# byebye @ thank you
+a,bye,bye,6,1383,1,L6,0,@ thank you @ bye
+b,erm hello,greet,18,1384,2,L18,1,# bye @ erm hello
+b,can i have a wake up call please for five a m,direct,10,1385,12,L10,0,@ erm hello @ can i have a wake up call please for five a m
+a,a,backch,5,1386,1,L5,1,# can i have a wake up call please for five a m @ a
+a,for five a m,confirm,8,1387,4,L8,0,@ a @ for five a m
+a,if you just hold the line while i try and confirm that for you,informIntent,24,1388,14,L24,0,@ for five a m @ if you just hold the line while i try and confirm that for you
+b,thanks erm five to please yeah right uh thanks a lot bye,thank,37,1389,12,L37,1,# if you just hold the line while i try and confirm that for you @ thanks erm five to please yeah right uh thanks a lot bye
+a,that's,accept,0,1390,1,L0,1,# thanks erm five to please yeah right uh thanks a lot bye @ that's
+a,erm we can call you at uh five to five or five minutes past,inform,21,1391,14,L21,0,@ that's @ erm we can call you at uh five to five or five minutes past
+a,which would you prefer,reqDirect,32,1392,4,L32,0,@ erm we can call you at uh five to five or five minutes past @ which would you prefer
+b,erm,backch,5,1393,1,L5,1,# which would you prefer @ erm
+b,five to please,direct,10,1394,3,L10,0,@ erm @ five to please
+a,ok,accept,0,1395,1,L0,1,# five to please @ ok
+a,if you just hold the line while i just confirm it,informIntent,24,1396,11,L24,0,@ ok @ if you just hold the line while i just confirm it
+b,yeah,accept,0,1397,1,L0,1,# if you just hold the line while i just confirm it @ yeah
+a,that's fine,accept,0,1398,2,L0,1,# yeah @ that's fine
+a,that's booked for you at five to five,inform,21,1399,8,L21,0,@ that's fine @ that's booked for you at five to five
+b,right,ackn,1,1400,1,L1,1,# that's booked for you at five to five @ right
+b,uh thanks a lot,thank,37,1401,4,L37,0,@ right @ uh thanks a lot
+a,ok then,init,25,1402,2,L25,1,# uh thanks a lot @ ok then
+a,thanks,thank,37,1403,1,L37,0,@ ok then @ thanks
+a,bye,bye,6,1404,1,L6,0,@ thanks @ bye
+b,bye,backch,5,1405,1,L5,1,# bye @ bye
+b,hi,greet,18,1406,1,L18,0,@ bye @ hi
+b,is there something like a directory assistance but more of a business related one,reqInfo,33,1407,14,L33,0,@ hi @ is there something like a directory assistance but more of a business related one
+b,cause i'm looking for recruitment agencies in ah i tried but they weren't very good last time ok is there not a business is that ok thank you bye are you going,inform,21,1408,32,L21,0,@ is there something like a directory assistance but more of a business related one @ cause i'm looking for recruitment agencies in ah i tried but they weren't very good last time ok is there not a business is that ok thank you bye are you going
+a,yeah,backch,5,1409,1,L5,1,# cause i'm looking for recruitment agencies in ah i tried but they weren't very good last time ok is there not a business is that ok thank you bye are you going @ yeah
+a,yeah,answ,2,1410,1,L2,0,@ yeah @ yeah
+a,that's fine,answElab,3,1411,2,L3,0,@ yeah @ that's fine
+a,i'll put you through to,informIntent,24,1412,5,L24,0,@ that's fine @ i'll put you through to
+a,they should be able to help you,inform,21,1413,7,L21,0,@ i'll put you through to @ they should be able to help you
+b,ah i tried,inform,21,1414,3,L21,1,# they should be able to help you @ ah i tried
+b,but they weren't very good last time,expressOpinion,14,1415,7,L14,0,@ ah i tried @ but they weren't very good last time
+b,ok,init,25,1416,1,L25,0,@ but they weren't very good last time @ ok
+b,is there not a business is that ok thank you bye are you going to connect me or shall i do it ok thanks cheers,reqInfo,33,1417,25,L33,0,@ ok @ is there not a business is that ok thank you bye are you going to connect me or shall i do it ok thanks cheers
+b,is that,reqInfo,33,1418,2,L33,0,@ is there not a business is that ok thank you bye are you going to connect me or shall i do it ok thanks cheers @ is that
+a,um,backch,5,1419,1,L5,1,# is that @ um
+a,yeah,backch,5,1420,1,L5,0,@ um @ yeah
+a,no no no,answ,2,1421,3,L2,0,@ yeah @ no no no
+a,it's they'll give they'll give you details of all the recruitment agencies in your area ok pleasure yeah yeah don't worry i'm going to put you through,answElab,3,1422,27,L3,0,@ no no no @ it's they'll give they'll give you details of all the recruitment agencies in your area ok pleasure yeah yeah don't worry i'm going to put you through
+a,they'll give they'll give you details of all the recruitment agencies in your area,inform,21,1423,14,L21,0,@ it's they'll give they'll give you details of all the recruitment agencies in your area ok pleasure yeah yeah don't worry i'm going to put you through @ they'll give they'll give you details of all the recruitment agencies in your area
+b,ok,ackn,1,1424,1,L1,1,# they'll give they'll give you details of all the recruitment agencies in your area @ ok
+a,ok,init,25,1425,1,L25,1,# ok @ ok
+b,thank you,thank,37,1426,2,L37,1,# ok @ thank you
+a,pleasure,ackn,1,1427,1,L1,1,# thank you @ pleasure
+b,bye are you going to connect me or shall i do it ok thanks cheers,bye,6,1428,15,L6,1,# pleasure @ bye are you going to connect me or shall i do it ok thanks cheers
+b,are you going to connect me or shall i do it,reqInfo,33,1429,11,L33,0,@ bye are you going to connect me or shall i do it ok thanks cheers @ are you going to connect me or shall i do it
+a,yeah yeah,ackn,1,1430,2,L1,1,# are you going to connect me or shall i do it @ yeah yeah
+a,don't worry,direct,10,1431,2,L10,0,@ yeah yeah @ don't worry
+a,i'm going to put you through,informIntent,24,1432,6,L24,0,@ don't worry @ i'm going to put you through
+b,ok,ackn,1,1433,1,L1,1,# i'm going to put you through @ ok
+b,thanks cheers,thank,37,1434,2,L37,0,@ ok @ thanks cheers
+b,oh hello,greet,18,1435,2,L18,0,@ thanks cheers @ oh hello
+b,i'm trying to ring a number,informIntent,24,1436,6,L24,0,@ oh hello @ i'm trying to ring a number
+b,and it comes up saying that erm that the number won't except calls unless i put an identification number in so what do i do i don't know well the number i'm,inform,21,1437,32,L21,0,@ i'm trying to ring a number @ and it comes up saying that erm that the number won't except calls unless i put an identification number in so what do i do i don't know well the number i'm
+b,so,init,25,1438,1,L25,0,@ and it comes up saying that erm that the number won't except calls unless i put an identification number in so what do i do i don't know well the number i'm @ so
+b,what do i do,reqInfo,33,1439,4,L33,0,@ so @ what do i do
+b,i don't know,inform,21,1440,3,L21,0,@ what do i do @ i don't know
+a,what code and number were you dialling please,reqInfo,33,1441,8,L33,1,# i don't know @ what code and number were you dialling please
+b,well,init,25,1442,1,L25,1,# what code and number were you dialling please @ well
+b,the number i'm trying is but it won't allow me to dial it without putting an identification number in,answ,2,1443,19,L2,0,@ well @ the number i'm trying is but it won't allow me to dial it without putting an identification number in
+b,but it won't allow me to dial it without putting an identification number in,inform,21,1444,14,L21,0,@ the number i'm trying is but it won't allow me to dial it without putting an identification number in @ but it won't allow me to dial it without putting an identification number in
+a,i'll just have a look for you,informIntent,24,1445,7,L24,1,# but it won't allow me to dial it without putting an identification number in @ i'll just have a look for you
+b,huh could you give me the phone number of the oh what's the name of that place yes thank you,reqInfo,33,1446,20,L33,1,# i'll just have a look for you @ huh could you give me the phone number of the oh what's the name of that place yes thank you
+b,oh what's the name of that place,selfTalk,35,1447,7,L35,0,@ huh could you give me the phone number of the oh what's the name of that place yes thank you @ oh what's the name of that place
+a,ok erm,ackn,1,1448,2,L1,1,# oh what's the name of that place @ ok erm
+a,the service you actually require is would you like me to connect you thank you,inform,21,1449,15,L21,0,@ ok erm @ the service you actually require is would you like me to connect you thank you
+a,would you like me to connect you,offer,27,1450,7,L27,0,@ the service you actually require is would you like me to connect you thank you @ would you like me to connect you
+b,yes,accept,0,1451,1,L0,1,# would you like me to connect you @ yes
+b,thank you,thank,37,1452,2,L37,0,@ yes @ thank you
+a,thank you,thank,37,1453,2,L37,1,# thank you @ thank you
+b,eh erm can you tell me do you know where erm this phone box is,reqInfo,33,1454,15,L33,1,# thank you @ eh erm can you tell me do you know where erm this phone box is
+a,and is that local,reqInfo,33,1455,4,L33,1,# eh erm can you tell me do you know where erm this phone box is @ and is that local
+a,that's all i'd be able to tell you the area that it's in,inform,21,1456,13,L21,0,@ and is that local @ that's all i'd be able to tell you the area that it's in
+a,i can't tell you more than that,inform,21,1457,7,L21,0,@ that's all i'd be able to tell you the area that it's in @ i can't tell you more than that
+a,i'm afraid,expressRegret,16,1458,2,L16,0,@ i can't tell you more than that @ i'm afraid
+b,yeah,backch,5,1459,1,L5,1,# i'm afraid @ yeah
+b,oh okay,backch,5,1460,2,L5,0,@ yeah @ oh okay
+b,alright then,ackn,1,1461,2,L1,0,@ oh okay @ alright then
+a,okay,ackn,1,1462,1,L1,1,# alright then @ okay
+b,please may i have an early morning call,direct,10,1463,8,L10,1,# okay @ please may i have an early morning call
+a,yeah,accept,0,1464,1,L0,1,# please may i have an early morning call @ yeah
+a,what time did you want it for,reqInfo,33,1465,7,L33,0,@ yeah @ what time did you want it for
+b,uh two thirty,answ,2,1466,3,L2,1,# what time did you want it for @ uh two thirty
+a,two thirty this morning,confirm,8,1467,4,L8,1,# uh two thirty @ two thirty this morning
+b,yes please,ackn,1,1468,2,L1,1,# two thirty this morning @ yes please
+a,ok,ackn,1,1469,1,L1,1,# yes please @ ok
+a,hold on please right we'll call you at two thirty this morning ok thank you byebye,hold,19,1470,16,L19,0,@ ok @ hold on please right we'll call you at two thirty this morning ok thank you byebye
+a,right,init,25,1471,1,L25,0,@ hold on please right we'll call you at two thirty this morning ok thank you byebye @ right
+a,we'll call you at two thirty this morning,informIntent,24,1472,8,L24,0,@ right @ we'll call you at two thirty this morning
+b,thanks very much indeed,thank,37,1473,4,L37,1,# we'll call you at two thirty this morning @ thanks very much indeed
+a,ok,ackn,1,1474,1,L1,1,# thanks very much indeed @ ok
+a,thank you,thank,37,1475,2,L37,0,@ ok @ thank you
+b,byebye,bye,6,1476,1,L6,1,# thank you @ byebye
+a,byebye,bye,6,1477,1,L6,1,# byebye @ byebye
